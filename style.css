@@ -1,17 +1,17 @@
 @font-face {
-  font-family: "TexGyreSchola";
-  src: url('./texgyreschola-regular.otf');
+  font-family: "Tex Gyre Schola";
+  src: url("./texgyreschola-regular.otf");
 }
 
 @font-face {
-  font-family: "TexGyreSchola";
-  src: url('./texgyreschola-bold.otf');
+  font-family: "Tex Gyre Schola";
+  src: url("./texgyreschola-bold.otf");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "TexGyreSchola";
-  src: url('./texgyreschola-italic.otf');
+  font-family: "Tex Gyre Schola";
+  src: url("./texgyreschola-italic.otf");
   font-style: italic, oblique;
 }
 
@@ -20,9 +20,8 @@ a:visited {text-decoration:none;}
 a:hover {text-decoration:underline;}
 
 body {
-  font-family: "TexGyreSchola", sans-serif;
+  font-family: "Tex Gyre Schola", sans-serif;
   font-size: 12pt;
-  font-style: normal;
 }
 
 h2 { font-size: 13pt; }
