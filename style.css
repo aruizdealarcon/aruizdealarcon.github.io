@@ -21,13 +21,13 @@ a:hover {text-decoration:underline;}
 
 body {
   font-family: "Tex Gyre Schola", sans-serif;
-  font-size: 1.2em;
+  font-size: 12pt;
 }
 
 h2 {
   font-size: 1.2em;
-  margin-top: 0.7em;
-  margin-bottom: 0.7em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
   margin-left: 0;
   margin-right: 0;
 }
