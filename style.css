@@ -1,4 +1,4 @@
-@import url(./Serif/cmun-serif.css);
+@import url("./Serif/cmun-serif.css");
 
 a:link {text-decoration:none;}
 a:visited {text-decoration:none;}
@@ -13,9 +13,9 @@ div.content {
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
-	padding-left: 15px;
+  padding-left: 15px;
   padding-bottom: 15px;
-  border:black 1px solid
+  border: black 1px solid;
 }
 
 .image {
@@ -23,5 +23,5 @@ div.content {
   margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-  border: black 1px solid
+  border: black 1px solid;
 }
