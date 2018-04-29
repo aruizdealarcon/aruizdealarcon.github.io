@@ -48,6 +48,16 @@ div.content {
   text-align: justify;
 }
 
+div.backbar {
+  width:750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  text-align: right;
+}
+
 .image {
   float: right;
   margin-top: 10px;
