@@ -21,12 +21,13 @@ a:hover {text-decoration:underline;}
 
 body {
   font-family: "TexGyreSchola", sans-serif;
-  font-size: 13pt;
+  font-size: 12pt;
+  font-style: normal;
 }
 
-h2 { font-size: 14pt; }
+h2 { font-size: 13pt; }
 
-h3 { font-size: 14pt; }
+h3 { font-size: 13pt; }
 
 div.content {
   width:750px;
@@ -35,7 +36,8 @@ div.content {
   margin-top: 15px;
   padding-left: 15px;
   padding-bottom: 15px;
-  border: black 1px solid;
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
 }
 
 .image {
