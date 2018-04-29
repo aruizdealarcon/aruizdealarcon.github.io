@@ -45,6 +45,7 @@ div.content {
   padding-bottom: 15px;
   border-top: black 1px solid;
   border-bottom: black 1px solid;
+  text-align: justify;
 }
 
 .image {
