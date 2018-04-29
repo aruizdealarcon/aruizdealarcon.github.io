@@ -6,7 +6,12 @@ a:hover {text-decoration:underline;}
 
 body {
   font-family: "Computer Modern Serif", sans-serif;
+  font-size: 12pt;
 }
+
+h1 { font-size: 16pt; }
+
+h2 { font-size: 16pt; }
 
 div.content {
   width:750px;
