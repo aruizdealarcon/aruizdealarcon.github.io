@@ -24,16 +24,12 @@ body {
   font-size: 11pt;
 }
 
-h2 {
-  font-size: 1.2em;
-  margin-top: 0.6em;
-  margin-bottom: 0.6em;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-h3 {
-  font-size: 1.2em;
+h1 {
+  font-size: 1em;
+  margin-top:5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 div.content {
