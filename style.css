@@ -33,11 +33,12 @@ h1 {
   width: 750px;
   margin: 0 auto;
   padding: 0;
+  border-top: black 1px solid;
 }
 
 div.content {
   padding: 15px 15px 20px;
-  border-top: black 1px solid;
+  border-bottom: black 1px solid;
 }
 
 .content > p {
@@ -45,7 +46,6 @@ div.content {
 }
 
 div.backbar {
-  width: 750px;
   margin: 0 auto;
   padding: 15px;
   text-align: right;
