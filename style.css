@@ -54,11 +54,3 @@ div.backbar {
   padding: 15px;
   text-align: right;
 }
-
-.image {
-  float: right;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  border: black 1px solid;
-}
