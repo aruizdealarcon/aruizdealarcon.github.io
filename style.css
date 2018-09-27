@@ -35,6 +35,14 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 1em;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 #wrapper {
   max-width: 750px;
   width: 100%;
