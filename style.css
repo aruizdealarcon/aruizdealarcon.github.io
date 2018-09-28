@@ -20,6 +20,7 @@ a:visited { text-decoration:none; color: #003366; }
 a:hover   { text-decoration:underline; color: #003366; }
 
 li { text-align: justify; margin-bottom: 5px; }
+li:last-child { margin-bottom: 0px; }
 
 body {
   font-family: "Tex Gyre Schola", sans-serif;
