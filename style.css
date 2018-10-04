@@ -25,9 +25,7 @@ table {
   width: 100%;
 }
 
-tr {
-  padding: 0px 10px 0px 10px;
-}
+tr { padding: 5px; }
 
 tr:nth-child(even) { background: #f0f0f0; }
 tr:nth-child(odd) { background: #fbfbfb; }
@@ -47,14 +45,6 @@ h1 {
   margin-left: 0px;
   margin-right: 0px;
   text-transform: uppercase;
-}
-
-h2 {
-  font-size: 1em;
-  margin-top: 12px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 #wrapper {
