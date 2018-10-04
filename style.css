@@ -19,6 +19,18 @@ a:link    { text-decoration:none; color:#003366; }
 a:visited { text-decoration:none; color: #003366; }
 a:hover   { text-decoration:underline; color: #003366; }
 
+
+table { width: 100%; }
+
+tr {
+  border-bottom: 1px #ddd;
+  border-top: 1px solid #ddd;
+}
+
+tr:nth-child(even) { background: #efefef; }
+tr:nth-child(odd) { background: #ffffff; }
+
+
 li { text-align: justify; margin-bottom: 5px; }
 li:last-child { margin-bottom: 0px; }
 
