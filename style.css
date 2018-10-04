@@ -20,16 +20,17 @@ a:visited { text-decoration:none; color: #003366; }
 a:hover   { text-decoration:underline; color: #003366; }
 
 
-table { width: 100%; }
-
-tr {
-  border-bottom: 1px #ddd;
-  border-top: 1px solid #ddd;
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-tr:nth-child(even) { background: #efefef; }
-tr:nth-child(odd) { background: #ffffff; }
+tr {
+  padding: 0px 10px 0px 10px;
+}
 
+tr:nth-child(even) { background: #f0f0f0; }
+tr:nth-child(odd) { background: #fbfbfb; }
 
 li { text-align: justify; margin-bottom: 5px; }
 li:last-child { margin-bottom: 0px; }
