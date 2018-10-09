@@ -1,17 +1,17 @@
 @font-face {
-  font-family: "Tex Gyre Schola";
-  src: url("./texgyreschola-regular.otf");
+  font-family: "Tex Gyre";
+  src: url("/fonts/texgyretermes-regular.otf");
 }
 
 @font-face {
-  font-family: "Tex Gyre Schola";
-  src: url("./texgyreschola-bold.otf");
+  font-family: "Tex Gyre";
+  src: url("/fonts/texgyretermes-bold.otf");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "Tex Gyre Schola";
-  src: url("./texgyreschola-italic.otf");
+  font-family: "Tex Gyre";
+  src: url("/fonts/texgyretermes-italic.otf");
   font-style: italic;
 }
 
@@ -34,7 +34,7 @@ li { text-align: justify; margin-bottom: 5px; }
 li:last-child { margin-bottom: 0px; }
 
 body {
-  font-family: "Tex Gyre Schola", sans-serif;
+  font-family: "Tex Gyre", sans-serif;
   font-size: 12pt;
 }
 
