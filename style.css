@@ -1,17 +1,17 @@
 @font-face {
-  font-family: "Tex Gyre";
-  src: url("/fonts/texgyretermes-regular.otf");
+  font-family: "Tex Gyre Schola";
+  src: url("/fonts/texgyreschola-regular.otf");
 }
 
 @font-face {
-  font-family: "Tex Gyre";
-  src: url("/fonts/texgyretermes-bold.otf");
+  font-family: "Tex Gyre Schola";
+  src: url("/fonts/texgyreschola-bold.otf");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "Tex Gyre";
-  src: url("/fonts/texgyretermes-italic.otf");
+  font-family: "Tex Gyre Schola";
+  src: url("/fonts/texgyreschola-italic.otf");
   font-style: italic;
 }
 
