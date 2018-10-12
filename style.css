@@ -27,8 +27,8 @@ table {
 
 tr { padding: 5px; }
 
-tr:nth-child(even) { background: #f0f0f0; }
-tr:nth-child(odd) { background: #fbfbfb; }
+tr:nth-child(even) { background: #fafafa; }
+tr:nth-child(odd) { background: #ffffff; }
 
 li { text-align: justify; margin-bottom: 5px; }
 li:last-child { margin-bottom: 0px; }
