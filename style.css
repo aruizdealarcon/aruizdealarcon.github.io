@@ -19,16 +19,11 @@ a:link    { text-decoration:none; color:#003366; }
 a:visited { text-decoration:none; color: #003366; }
 a:hover   { text-decoration:underline; color: #003366; }
 
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
+table { border-collapse: collapse; width: 100%; }
 tr { padding: 5px; }
-
 tr:nth-child(even) { background: #fafafa; }
 tr:nth-child(odd) { background: #ffffff; }
+td { text-align: center; }
 
 li { text-align: justify; margin-bottom: 5px; }
 li:last-child { margin-bottom: 0px; }
@@ -69,6 +64,3 @@ div.contentback {
   text-align: justify;
 }
 
-.syllabus td {
-  text-align: center;
-}
