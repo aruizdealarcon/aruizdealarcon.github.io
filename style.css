@@ -23,7 +23,7 @@ table { border-collapse: collapse; width: 100%; }
 tr { padding: 5px; }
 tr:nth-child(even) { background: #fafafa; }
 tr:nth-child(odd) { background: #ffffff; }
-td { text-align: center; }
+td { text-align: justify; }
 
 li { text-align: justify; margin-bottom: 5px; }
 li:last-child { margin-bottom: 0px; }
