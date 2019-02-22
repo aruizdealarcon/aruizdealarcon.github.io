@@ -24,6 +24,7 @@ tr { padding: 5px; }
 tr:nth-child(even) { background: #f5f5f5; }
 tr:nth-child(odd) { background: #ffffff; }
 td { text-align: justify; }
+td:first-child { text-align: center; }
 
 li { text-align: justify; margin-bottom: 5px; }
 li:last-child { margin-bottom: 0px; }
