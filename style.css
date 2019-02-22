@@ -22,10 +22,11 @@ a:hover   { text-decoration:underline; color: #003366; }
 table {
   border-collapse: collapse;
   width: 100%;
-  border-top: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #ccc;
 }
-tr { padding: 5px; }
+tr { padding: 5px; 
+  border-top: 1px solid #ccc;
+}
 tr:nth-child(even) { background: #ffffff; }
 tr:nth-child(odd) { background: #f5f5f5; }
 td { text-align: justify; }
