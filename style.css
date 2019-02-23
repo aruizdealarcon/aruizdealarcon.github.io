@@ -1,17 +1,17 @@
 @font-face {
-  font-family: "Tex Gyre Schola";
-  src: url("/fonts/texgyreschola-regular.otf");
+  font-family: "Tex Gyre Termes";
+  src: url("/fonts/texgyretermes-regular.otf");
 }
 
 @font-face {
-  font-family: "Tex Gyre Schola";
-  src: url("/fonts/texgyreschola-bold.otf");
+  font-family: "Tex Gyre Termes";
+  src: url("/fonts/texgyretermes-bold.otf");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "Tex Gyre Schola";
-  src: url("/fonts/texgyreschola-italic.otf");
+  font-family: "Tex Gyre Termes";
+  src: url("/fonts/texgyretermes-italic.otf");
   font-style: italic;
 }
 
@@ -22,21 +22,21 @@ a:hover   { text-decoration:underline; color: #003366; }
 table {
   border-collapse: collapse;
   width: 100%;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ddd;
 }
 tr { padding: 5px; 
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #ddd;
 }
 tr:nth-child(even) { background: #ffffff; }
 tr:nth-child(odd) { background: #f5f5f5; }
 td { text-align: justify; }
-td:first-child { text-align: center; padding-right: 2px; padding-left: 2px; color: #444 }
+td:first-child { text-align: center; padding-right: 4px; padding-left: 4px; color: #333; }
 
 li { text-align: justify; margin-bottom: 5px; }
 li:last-child { margin-bottom: 0px; }
 
 body {
-  font-family: "Tex Gyre Schola", sans-serif;
+  font-family: "Tex Gyre Termes", sans-serif;
   font-size: 12pt;
 }
 
