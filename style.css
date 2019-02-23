@@ -91,7 +91,7 @@ div.contentback {
 div.theorem {
   padding: 15px;
   border-bottom: black 1px solid;
-  background-color: #eee;
+  background-color: #fefefe;
 }
 
 .theorem > p {
