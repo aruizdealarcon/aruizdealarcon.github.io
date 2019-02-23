@@ -88,3 +88,13 @@ div.contentback {
   text-align: justify;
 }
 
+div.theorem {
+  padding: 15px;
+  border-bottom: black 1px solid;
+  background-color: #eee;
+}
+
+.theorem > p {
+  text-align: justify;
+}
+
