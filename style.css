@@ -56,11 +56,17 @@ table.table-pdfs {
 
 ul {
   list-style-type: square;
-  margin-left: 20pt;
+  margin-left: 5pt;
 }
 
-li { text-align: justify; margin-bottom: 5px; }
-li:last-child { margin-bottom: 0px; }
+li {
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
 
 h1 {
   font-size: 1em;
