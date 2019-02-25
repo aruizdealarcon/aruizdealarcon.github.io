@@ -99,11 +99,4 @@ div.contentback {
   text-align: justify;
 }
 
-ul.two-column-list {
-  font-size: 0.9em;
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-}
-
 
