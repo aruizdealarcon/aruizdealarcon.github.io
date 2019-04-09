@@ -271,7 +271,7 @@ for (i = 0; i < acc.length; i++) {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
+      panel.style.maxHeight = "0px";
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
     } 
