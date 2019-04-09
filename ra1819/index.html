@@ -59,7 +59,7 @@ MathJax.Hub.Config({
   
   
   <button class="accordion" class="active"><span style="color:#aaa">&#9776;</span> Abril</button>
-<div class="accordionpanel">
+<div class="accordionpanel" id="firstaccordionpanel">
   <table class="table-pdfs">
     <tr>
       <td>3/4</td>
@@ -234,7 +234,9 @@ MathJax.Hub.Config({
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
-
+var fpanel = document.getElementById("firstaccordionpanel");
+fpanel.style.maxHeight = fpanel.scrollHeight + "px";
+  
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
