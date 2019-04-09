@@ -29,20 +29,20 @@ button::-moz-focus-inner {
   
 .accordion {
   font: inherit;
-  background: repeating-linear-gradient(45deg, #eee, #eee 1px, #fff 1px, #fff 4px);
+  background: repeating-linear-gradient(45deg, #eeeeee, #eeeee 1px, #eaeaea 1px, #eaeaea 4px);
   cursor: pointer;
   padding: 10px;
   width: 100%;
   border: none;
-  display: block;
   outline: none;
   text-align: left;
   transition: 0.4s;
   margin-top: 5px;
+  border-top: 1px solid #ddd;
 }
 
 .accordion:hover {
-  background: repeating-linear-gradient(45deg, #ddd, #ddd 1px, #fff 1px, #fff 4px);
+  background: repeating-linear-gradient(45deg, #dfdfdf, #dfdfdf 1px, #dddddd 1px, #dddddd 4px);
   outline: none;
 }
 
@@ -51,7 +51,6 @@ button::-moz-focus-inner {
 }
 
 .accordionpanel {
-  display: none;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -267,7 +266,6 @@ button::-moz-focus-inner {
 </div>
 
 </div> <!-- end wrapper -->
-
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -276,11 +274,11 @@ for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
     } else {
-      panel.style.display = "block";
-    }
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
   });
 }
 </script>
