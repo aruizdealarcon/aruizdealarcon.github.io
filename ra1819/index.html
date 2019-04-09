@@ -23,11 +23,13 @@ MathJax.Hub.Config({
 -->
 
 <style>
+button::-moz-focus-inner {
+  border: 0;
+}
+  
 .accordion {
   font: inherit;
-  background-color: #eee;
-  background-image: repeating-linear-gradient(45deg, transparent, transparent 1px, rgba(255,255,255,.5) 1px, rgba(255,255,255,.5) 1px);
-  color: #444;
+  background: repeating-linear-gradient(45deg, #eee, #eee 1px, #fff 1px, #fff 4px);
   cursor: pointer;
   padding: 10px;
   width: 100%;
@@ -40,8 +42,7 @@ MathJax.Hub.Config({
 }
 
 .accordion:hover {
-  background-color: #e3e3e3;
-  background-image: repeating-linear-gradient(45deg, transparent, transparent 1px, rgba(255,255,255,.5) 1px, rgba(255,255,255,.5) 1px);
+  background: repeating-linear-gradient(45deg, #ddd, #ddd 1px, #fff 1px, #fff 4px);
   outline: none;
 }
 
@@ -51,8 +52,11 @@ MathJax.Hub.Config({
 
 .accordionpanel {
   display: none;
+  max-height: 0;
   overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
+
 </style>
   
 <title>Prácticas de Análisis de Variable Real 18-19.</title>
