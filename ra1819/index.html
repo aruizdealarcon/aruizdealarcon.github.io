@@ -59,7 +59,7 @@ MathJax.Hub.Config({
   
   
   <button class="accordion" class="active"><span style="color:#aaa">&#9776;</span> Abril</button>
-<div class="accordionpanel" style="max-height: initial">
+<div class="accordionpanel">
   <table class="table-pdfs">
     <tr>
       <td>3/4</td>
@@ -239,10 +239,10 @@ for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
-    if (panel.style.maxHeight != "0px" and panel.style.maxHeight != null){
-      panel.style.maxHeight = "0px";
-    } else {
+    if (panel.style.maxHeight){
       panel.style.maxHeight = panel.scrollHeight + "px";
+    } else {
+      panel.style.maxHeight = null;
     } 
   });
 }
