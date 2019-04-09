@@ -29,7 +29,7 @@ button::-moz-focus-inner {
   
 .accordion {
   font: inherit;
-  background: repeating-linear-gradient(45deg, #eeeeee, #eeeee 1px, #eaeaea 1px, #eaeaea 4px);
+  background: #f5f5f5;
   cursor: pointer;
   padding: 10px;
   width: 100%;
@@ -41,12 +41,8 @@ button::-moz-focus-inner {
   border-top: 1px solid #ddd;
 }
 
-.accordion:hover {
-  background: repeating-linear-gradient(45deg, #dfdfdf, #dfdfdf 1px, #dddddd 1px, #dddddd 4px);
-  outline: none;
-}
-
-.accordion:visited {
+.active .accordion:hover {
+  background: #eff5fc;
   outline: none;
 }
 
@@ -94,7 +90,7 @@ button::-moz-focus-inner {
   
   
 <button class="accordion">Abril</button>
-<div class="accordionpanel" style="display:block">
+<div class="accordionpanel" style="max-height: initial">
   <table class="table-pdfs">
     <tr>
       <td>3/4</td>
