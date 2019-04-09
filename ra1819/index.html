@@ -58,7 +58,7 @@ MathJax.Hub.Config({
    de las clases de problemas impartidas hasta la fecha.</p>
   
   
-  <button class="accordion" class="active"><span color="#aaa">&#9776;</span> Abril</button>
+  <button class="accordion"><span color="#aaa">&#9776;</span> Abril</button>
 <div class="accordionpanel" style="max-height: initial">
   <table class="table-pdfs">
     <tr>
@@ -240,9 +240,9 @@ for (i = 0; i < acc.length; i++) {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight != "0px"){
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } else {
       panel.style.maxHeight = "0px";
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
     } 
   });
 }
