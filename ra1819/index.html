@@ -5,6 +5,7 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" type="text/css" href="/style.css" />
+<link rel="stylesheet" type="text/css" href="/accordion.css" />
 <script src="https://www.googletagmanager.com/gtag/js?id=UA-133591609-1" async></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -21,38 +22,6 @@ MathJax.Hub.Config({
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 -->
-
-<style>
-button::-moz-focus-inner {
-  border: 0;
-}
-  
-.accordion {
-  font: inherit;
-  background: #f5f5f5;
-  cursor: pointer;
-  padding: 10px;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  transition: 0.4s;
-  margin-top: 5px;
-  border-top: 1px solid #ddd;
-}
-
-.active .accordion:hover {
-  background: #efefef;
-  outline: none;
-}
-
-.accordionpanel {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-
-</style>
   
 <title>Prácticas de Análisis de Variable Real 18-19.</title>
 </head>
@@ -89,7 +58,7 @@ button::-moz-focus-inner {
    de las clases de problemas impartidas hasta la fecha.</p>
   
   
-<button class="accordion">&#9776; Abril</button>
+<button class="accordion" class="active">&#9776; Abril</button>
 <div class="accordionpanel" style="max-height: initial">
   <table class="table-pdfs">
     <tr>
@@ -270,10 +239,10 @@ for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = "0px";
-    } else {
+    if (panel.style.maxHeight != "0px"){
       panel.style.maxHeight = panel.scrollHeight + "px";
+    } else {
+      panel.style.maxHeight = "0px";
     } 
   });
 }
