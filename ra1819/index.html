@@ -58,7 +58,7 @@ MathJax.Hub.Config({
    de las clases de problemas impartidas hasta la fecha.</p>
   
   
-  <button class="accordion"><span color="#aaa">&#9776;</span> Abril</button>
+  <button class="accordion" class="active"><span style="color:#aaa">&#9776;</span> Abril</button>
 <div class="accordionpanel" style="max-height: initial">
   <table class="table-pdfs">
     <tr>
@@ -91,7 +91,7 @@ MathJax.Hub.Config({
   </table>
 </div>
 
-<button class="accordion"><span color="#aaa">&#9776;</span> Marzo</button>
+<button class="accordion"><span style="color:#aaa">&#9776;</span> Marzo</button>
 <div class="accordionpanel">
   <table class="table-pdfs">
     <tr>
@@ -141,7 +141,7 @@ MathJax.Hub.Config({
   </table>
 </div>
   
-<button class="accordion"><span color="#aaa">&#9776;</span> Febrero</button>
+<button class="accordion"><span style="color:#aaa">&#9776;</span> Febrero</button>
 <div class="accordionpanel">
   <table class="table-pdfs">
     <tr>
@@ -191,7 +191,7 @@ MathJax.Hub.Config({
   </table>
 </div>
   
-<button class="accordion"><span color="#aaa">&#9776;</span> Enero</button>
+<button class="accordion"><span style="color:#aaa">&#9776;</span> Enero</button>
 <div class="accordionpanel">
   <table class="table-pdfs">
     <tr>
@@ -239,7 +239,7 @@ for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
-    if (panel.style.maxHeight != "0px"){
+    if (panel.style.maxHeight){
       panel.style.maxHeight = "0px";
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
