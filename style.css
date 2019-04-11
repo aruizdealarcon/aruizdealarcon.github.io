@@ -32,7 +32,6 @@ table.table-pdfs {
 }
 
 .table-pdfs tr { padding: 5px; 
-  border-top: 1px solid #ddd;
 }
 
 .table-pdfs tr:nth-child(even) {
