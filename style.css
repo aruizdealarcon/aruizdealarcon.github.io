@@ -31,7 +31,9 @@ table.table-pdfs {
   border-bottom: 1px solid #ddd;
 }
 
-.table-pdfs tr { padding: 5px; 
+.table-pdfs tr {
+  padding: 5px; 
+  border-top: 1px solid #ddd;
 }
 
 .table-pdfs tr:nth-child(even) {
@@ -39,7 +41,7 @@ table.table-pdfs {
 }
 
 .table-pdfs tr:nth-child(odd) {
-  background: #f5f5f5;
+  background: #f8f8f8;
 }
 
 .table-pdfs td {
