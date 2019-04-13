@@ -100,4 +100,8 @@ div.contentback {
   text-align: justify;
 }
 
-
+.subjectdescription {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #111;
+}
