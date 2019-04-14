@@ -15,15 +15,15 @@
   font-style: italic;
 }
 
-body {
-  font-family: "Tex Gyre Schola", sans-serif;
-  font-size: 12pt;
-  line-height: 1.6;
-}
-
 a:link    { text-decoration:none; color:#003366; }
 a:visited { text-decoration:none; color: #003366; }
 a:hover   { text-decoration:underline; color: #003366; }
+
+body {
+  font-family: "Tex Gyre Schola", sans-serif;
+  font-size: 12pt;
+  line-height: 1.4;
+}
 
 table.table-pdfs {
   border-collapse: collapse;
@@ -103,5 +103,4 @@ div.contentback {
   font-style: italic;
   font-size: 0.9em;
   color: #444;
-  line-height: 1.1;
 }
