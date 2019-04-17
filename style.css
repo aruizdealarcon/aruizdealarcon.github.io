@@ -15,12 +15,29 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "Tex Gyre Termes";
+  src: url("/fonts/texgyretermes-regular.otf");
+}
+
+@font-face {
+  font-family: "Tex Gyre Termes";
+  src: url("/fonts/texgyretermes-bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Tex Gyre Termes";
+  src: url("/fonts/texgyretermes-italic.otf");
+  font-style: italic;
+}
+
 a:link    { text-decoration:none; color: #003366; }
 a:visited { text-decoration:none; color: #003366; }
 a:hover   { text-decoration:underline; color: #000000; }
 
 body {
-  font-family: "Tex Gyre Schola", sans-serif;
+  font-family: "Tex Gyre Termes", sans-serif;
   font-size: 12pt;
   line-height: 1.4;
 }
