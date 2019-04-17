@@ -37,7 +37,7 @@ a:visited { text-decoration:none; color: #003366; }
 a:hover   { text-decoration:underline; color: #000000; }
 
 body {
-  font-family: "Tex Gyre Termes", sans-serif;
+  font-family: "Tex Gyre Schola", sans-serif;
   font-size: 12pt;
   line-height: 1.4;
 }
@@ -117,6 +117,7 @@ div.contentback {
 }
 
 .subjectdescription {
+  font-family: "Tex Gyre Termes", "Tex Gyre Schola", sans-serif;
   font-style: italic;
   font-size: 0.9em;
   color: #7c7195;
