@@ -32,9 +32,9 @@
   font-style: italic;
 }
 
-a:link    { text-decoration:none; color: #003366; }
-a:visited { text-decoration:none; color: #003366; }
-a:hover   { text-decoration:underline; color: #000000; }
+a:link    { text-decoration: none; color: #003366; }
+a:visited { text-decoration: none; color: #003366; }
+a:hover   { text-decoration: none; color: #000000; }
 
 body {
   font-family: "Tex Gyre Schola", sans-serif;
@@ -42,30 +42,30 @@ body {
   line-height: 1.4;
 }
 
-table.table-pdfs {
+.alternatingtab {
   border-collapse: collapse;
   width: 100%;
   border-bottom: 1px solid #ddd;
 }
 
-.table-pdfs tr {
+.alternatingtab tr {
   padding: 5px; 
   border-top: 1px solid #ddd;
 }
 
-.table-pdfs tr:nth-child(even) {
+.alternatingtab tr:nth-child(even) {
   background: #ffffff;
 }
 
-.table-pdfs tr:nth-child(odd) {
+.alternatingtab tr:nth-child(odd) {
   background: #f8f8f8;
 }
 
-.table-pdfs td {
+.alternatingtab td {
   text-align: justify;
 }
 
-.table-pdfs td:first-child {
+.alternatingtab td:first-child {
   text-align: center;
   padding-right: 4px;
   padding-left: 4px;
@@ -116,7 +116,7 @@ div.contentback {
   text-align: justify;
 }
 
-.subjectdescription {
+.description {
   font-family: "Tex Gyre Termes", "Tex Gyre Schola", sans-serif;
   font-style: italic;
   font-size: 0.95em;
