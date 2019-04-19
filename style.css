@@ -38,6 +38,12 @@
   src: url("/fonts/cmunrm.otf");
 }
 
+@font-face {
+  font-family: "CMUNRM";
+  src: url("/fonts/cmunbx.otf");
+  font-weight: bold;
+}
+
 a:link    { text-decoration: none; color: #003366; }
 a:visited { text-decoration: none; color: #003366; }
 a:hover   { text-decoration: none; color: #000000; }
