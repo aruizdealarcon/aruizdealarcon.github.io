@@ -32,7 +32,6 @@
   font-style: italic;
 }
 
-
 @font-face {
   font-family: "OldStandard";
   src: url("/fonts/OldStandard-Regular.ttf");
@@ -47,7 +46,7 @@
 @font-face {
   font-family: "OldStandard";
   src: url("/fonts/OldStandard-Italic.ttf");
-  font-weight: italic;
+  font-style: italic;
 }
 
 a:link    { text-decoration: none; color: #003366; }
