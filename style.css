@@ -35,12 +35,12 @@
 
 @font-face {
   font-family: "CMUNRM";
-  src: url("/fonts/cmunrm.otf");
+  src: url("/fonts/cmunrm.ttf");
 }
 
 @font-face {
   font-family: "CMUNRM";
-  src: url("/fonts/cmunbx.otf");
+  src: url("/fonts/cmunbx.ttf");
   font-weight: bold;
 }
 
