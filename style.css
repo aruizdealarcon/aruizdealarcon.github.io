@@ -32,12 +32,18 @@
   font-style: italic;
 }
 
+
+@font-face {
+  font-family: "CMUNRM";
+  src: url("/fonts/cmunrm.otf");
+}
+
 a:link    { text-decoration: none; color: #003366; }
 a:visited { text-decoration: none; color: #003366; }
 a:hover   { text-decoration: none; color: #000000; }
 
 body {
-  font-family: "Tex Gyre Schola", sans-serif;
+  font-family: "CMUNRM", "Tex Gyre Schola", sans-serif;
   font-size: 12pt;
   line-height: 1.4;
 }
