@@ -54,7 +54,7 @@ a:visited { text-decoration: none; color: #003366; }
 a:hover   { text-decoration: none; color: #000000; }
 
 body {
-  font-family: "OldStandard", "Tex Gyre Schola", sans-serif;
+  font-family: "Tex Gyre Schola", sans-serif;
   font-size: 12pt;
   line-height: 1.4;
 }
