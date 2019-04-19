@@ -161,8 +161,9 @@ div.contentback {
 }
 
 .description {
+  margin-top: 3px;
   font-family: "OldStandard001", "TexGyreSchola001", sans-serif;
   font-style: italic;
-  font-size: 0.9em;
+  font-size: 12pt;
   color: #7c7195;
 }
