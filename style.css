@@ -34,14 +34,20 @@
 
 
 @font-face {
-  font-family: "CMUNRM";
-  src: url("/fonts/cmunrm.ttf");
+  font-family: "OldStandard";
+  src: url("/fonts/OldStandard-Regular.ttf");
 }
 
 @font-face {
-  font-family: "CMUNRM";
-  src: url("/fonts/cmunbx.ttf");
+  font-family: "OldStandard";
+  src: url("/fonts/OldStandard-Bold.ttf");
   font-weight: bold;
+}
+
+@font-face {
+  font-family: "OldStandard";
+  src: url("/fonts/OldStandard-Italic.ttf");
+  font-weight: italic;
 }
 
 a:link    { text-decoration: none; color: #003366; }
@@ -49,7 +55,7 @@ a:visited { text-decoration: none; color: #003366; }
 a:hover   { text-decoration: none; color: #000000; }
 
 body {
-  font-family: "Tex Gyre Schola", sans-serif;
+  font-family: "OldStandard", "Tex Gyre Schola", sans-serif;
   font-size: 12pt;
   line-height: 1.4;
 }
