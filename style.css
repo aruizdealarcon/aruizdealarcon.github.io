@@ -115,7 +115,7 @@ header, section {
     border-bottom: black 1px solid;
 }
 
-.contentback {
+footer {
     padding: 15px;
     text-align: right;
 }
