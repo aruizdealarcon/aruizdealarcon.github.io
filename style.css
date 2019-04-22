@@ -1,35 +1,35 @@
 @font-face {
-  font-family: "TexGyreTermes001";
-  src: url("/fonts/texgyretermes-regular.otf");
+    font-family: "TexGyreTermes001";
+    src: url("/fonts/texgyretermes-regular.otf");
 }
 
 @font-face {
-  font-family: "TexGyreTermes001";
-  src: url("/fonts/texgyretermes-bold.otf");
-  font-weight: bold;
+    font-family: "TexGyreTermes001";
+    src: url("/fonts/texgyretermes-bold.otf");
+    font-weight: bold;
 }
 
 @font-face {
-  font-family: "TexGyreTermes001";
-  src: url("/fonts/texgyretermes-italic.otf");
-  font-style: italic;
+    font-family: "TexGyreTermes001";
+    src: url("/fonts/texgyretermes-italic.otf");
+    font-style: italic;
 }
 
 @font-face {
-  font-family: "OldStandard001";
-  src: url("/fonts/OldStandard-Regular.ttf");
+    font-family: "OldStandard001";
+    src: url("/fonts/OldStandard-Regular.ttf");
 }
 
 @font-face {
-  font-family: "OldStandard001";
-  src: url("/fonts/OldStandard-Bold.ttf");
-  font-weight: bold;
+    font-family: "OldStandard001";
+    src: url("/fonts/OldStandard-Bold.ttf");
+    font-weight: bold;
 }
 
 @font-face {
-  font-family: "OldStandard001";
-  src: url("/fonts/OldStandard-Italic.ttf");
-  font-style: italic;
+    font-family: "OldStandard001";
+    src: url("/fonts/OldStandard-Italic.ttf");
+    font-style: italic;
 }
 
 a:link    { text-decoration: none; color: #003366; }
@@ -37,97 +37,97 @@ a:visited { text-decoration: none; color: #003366; }
 a:hover   { text-decoration: none; color: #000000; }
 
 body {
-  font-family: "TexGyreTermes001", sans-serif;
-  font-size: 13pt;
-  line-height: 1.3;
+    font-family: "TexGyreTermes001", sans-serif;
+    font-size: 13pt;
+    line-height: 1.3;
 }
 
 .alternatingtab {
-  border-collapse: collapse;
-  width: 100%;
-  border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
 }
 
 .alternatingtab tr {
-  padding: 5px; 
-  border-top: 1px solid #ddd;
+    padding: 5px; 
+    border-top: 1px solid #ddd;
 }
 
 .alternatingtab tr:nth-child(even) {
-  background: #ffffff;
+    background: #ffffff;
 }
 
 .alternatingtab tr:nth-child(odd) {
-  background: #f8f8f8;
+    background: #f8f8f8;
 }
 
 .alternatingtab td {
-  text-align: justify;
+    text-align: justify;
 }
 
 .alternatingtab td:first-child {
-  text-align: center;
-  padding-right: 4px;
-  padding-left: 4px;
-  color: #333;
+    text-align: center;
+    padding-right: 4px;
+    padding-left: 4px;
+    color: #333;
 }
 
 ul {
-  padding-left: 15pt;
+    padding-left: 15pt;
 }
 
 li {
-  text-align: justify;
-  margin-bottom: 5px;
+    text-align: justify;
+    margin-bottom: 5px;
 }
 
 li:last-child {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 h1 {
-  font-size: 14pt;
-  margin-top: 12px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  text-transform: uppercase;
+    font-size: 14pt;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-transform: uppercase;
 }
 
 h2 {
-  font-size: 13pt;
-  margin-top: 15px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+    font-size: 13pt;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #wrapper {
-  max-width: 700px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  border-top: black 1px solid;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border-top: black 1px solid;
 }
 
 header, section {
-  padding: 15px;
-  border-bottom: black 1px solid;
+    padding: 15px;
+    border-bottom: black 1px solid;
 }
 
-div.contentback {
-  padding: 15px;
-  text-align: right;
+.contentback {
+    padding: 15px;
+    text-align: right;
 }
 
-.content > p {
-  text-align: justify;
+section > p {
+    text-align: justify;
 }
 
 .description {
-  margin-top: 3px;
-  font-family: "OldStandard001", sans-serif;
-  font-style: italic;
-  font-size: 12pt;
-  color: #7c7195;
+    margin: 5px 0px 5px 0px;
+    font-family: "OldStandard001", sans-serif;
+    font-style: italic;
+    font-size: 12pt;
+    color: #7c7195;
 }
