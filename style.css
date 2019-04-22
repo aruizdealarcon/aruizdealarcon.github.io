@@ -129,5 +129,9 @@ footer {
     font-family: "OldStandard001", sans-serif;
     font-style: italic;
     font-size: 12pt;
-    color: #7c7195;
+    color: #757575;
+}
+
+.authors {
+    color: #757575;
 }
