@@ -32,29 +32,12 @@
   font-style: italic;
 }
 
-@font-face {
-  font-family: "LMSans001";
-  src: url("/fonts/lmsans10-regular-webfont.woff");
-}
-
-@font-face {
-  font-family: "LMSans001";
-  src: url("/fonts/lmsans10-oblique-webfont.woff");
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "LMSans001";
-  src: url("/fonts/lmsans10-bold-webfont.woff");
-  font-weight: bold;
-}
-
 a:link    { text-decoration: none; color: #003366; }
 a:visited { text-decoration: none; color: #003366; }
 a:hover   { text-decoration: none; color: #000000; }
 
 body {
-  font-family: "LMSans001", sans-serif;
+  font-family: "TexGyreTermes001", sans-serif;
   font-size: 13pt;
   line-height: 1.3;
 }
@@ -103,7 +86,6 @@ li:last-child {
 }
 
 h1 {
-  font-family: "TexGyreTermes001", sans-serif;
   font-size: 14pt;
   margin-top: 12px;
   margin-bottom: 0px;
@@ -113,7 +95,6 @@ h1 {
 }
 
 h2 {
-  font-family: "TexGyreTermes001", sans-serif;
   font-size: 13pt;
   margin-top: 15px;
   margin-bottom: 0px;
@@ -129,7 +110,7 @@ h2 {
   border-top: black 1px solid;
 }
 
-div.content {
+header, section {
   padding: 15px;
   border-bottom: black 1px solid;
 }
