@@ -89,7 +89,7 @@ li:last-child {
     margin-bottom: 0px;
 }
 
-h1 {
+h1, h2 {
     font-size: 14pt;
     margin-top: 12px;
     margin-bottom: 0px;
@@ -98,13 +98,14 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
+h3 {
     font-size: 13pt;
     margin-top: 15px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
 }
+
 
 #wrapper {
     max-width: 650px;
