@@ -15,23 +15,6 @@
     font-style: italic;
 }
 
-@font-face {
-    font-family: "OldStandard001";
-    src: url("/fonts/OldStandard-Regular.ttf");
-}
-
-@font-face {
-    font-family: "OldStandard001";
-    src: url("/fonts/OldStandard-Bold.ttf");
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "OldStandard001";
-    src: url("/fonts/OldStandard-Italic.ttf");
-    font-style: italic;
-}
-
 a:link    { text-decoration: none; color: #003366; }
 a:visited { text-decoration: none; color: #003366; }
 a:hover   { text-decoration: none; color: #000000; }
@@ -126,13 +109,12 @@ footer {
 }
 
 .description {
-    margin: 5px 0px 5px 0px;
-    font-family: "OldStandard001", sans-serif;
+    margin: 2px 0px 2px 0px;
     font-style: italic;
     font-size: 12pt;
-    color: #757575;
+    color: #707070;
 }
 
 .authors {
-    color: #757575;
+    color: #707070;
 }
