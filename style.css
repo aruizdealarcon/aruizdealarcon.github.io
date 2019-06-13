@@ -1,17 +1,17 @@
 @font-face {
-    font-family: "TexGyreTermes001";
-    src: url("/fonts/texgyretermes-regular.otf");
+    font-family: "myLinuxLibertine";
+    src: url("/fonts/LinLibertine_R.ttf");
 }
 
 @font-face {
-    font-family: "TexGyreTermes001";
-    src: url("/fonts/texgyretermes-bold.otf");
+    font-family: "myLinuxLibertine";
+    src: url("/fonts/LinLibertine_RB.ttf");
     font-weight: bold;
 }
 
 @font-face {
-    font-family: "TexGyreTermes001";
-    src: url("/fonts/texgyretermes-italic.otf");
+    font-family: "myLinuxLibertine";
+    src: url("/fonts/LinLibertine_RI.ttf");
     font-style: italic;
 }
 
@@ -20,7 +20,7 @@ a:visited { text-decoration: none; color: #003366; }
 a:hover   { text-decoration: none; color: #000000; }
 
 body {
-    font-family: "TexGyreTermes001", sans-serif;
+    font-family: "myLinuxLibertine", sans-serif;
     font-size: 13pt;
     line-height: 1.3;
 }
