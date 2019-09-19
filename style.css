@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: "Free Sans";
     src: url("/fonts/FreeSans.otf") format("opentype"),
          url("/fonts/FreeSans.ttf") format("truetype");
@@ -16,16 +16,16 @@
     src: url("/fonts/FreeSansOblique.otf") format("opentype"),
          url("/fonts/FreeSansOblique.ttf") format("truetype");
     font-style: italic;
-} 
+} */
 
 a:link    { text-decoration: none; color: #003366; }
 a:visited { text-decoration: none; color: #003366; }
 a:hover   { text-decoration: none; color: #000000; }
 
 body {
-    font-family: "Free Sans", sans-serif;
-    font-size: 12pt;
-    line-height: 1.5;
+    font-family: "STIX", sans-serif;
+    font-size: 14pt;
+    line-height: 1.1;
 }
 
 p {
