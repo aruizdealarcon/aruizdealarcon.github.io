@@ -52,12 +52,12 @@ p {
     text-align: justify;
 }
 
-/*.alternatingtab td:first-child {
+.alternatingtab td:first-child {
     text-align: center;
     padding-right: 4px;
     padding-left: 4px;
     color: #333;
-}*/
+}
 
 ul {
     padding-left: 15pt;
