@@ -1,22 +1,19 @@
-/*@font-face {
-    font-family: "Free Sans";
-    src: url("/fonts/FreeSans.otf") format("opentype"),
-         url("/fonts/FreeSans.ttf") format("truetype");
+@font-face {
+    font-family: "STIX";
+    src: url("/fonts/STIX2Text-Regular.woff") format("woff");
 } 
 
 @font-face {
-    font-family: "Free Sans";
-    src: url("/fonts/FreeSansBold.otf") format("opentype"),
-         url("/fonts/FreeSansBold.ttf") format("truetype");
+    font-family: "STIX";
+    src: url("/fonts/STIX2Text-Bold.otf") format("woff");
     font-weight: bold;
 }
 
 @font-face {
-    font-family: "Free Sans";
-    src: url("/fonts/FreeSansOblique.otf") format("opentype"),
-         url("/fonts/FreeSansOblique.ttf") format("truetype");
+    font-family: "STIX";
+    src: url("/fonts/STIX2Text-Italic.otf") format("woff");
     font-style: italic;
-} */
+}
 
 a:link    { text-decoration: none; color: #003366; }
 a:visited { text-decoration: none; color: #003366; }
