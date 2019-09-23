@@ -5,13 +5,13 @@
 
 @font-face {
     font-family: "STIX";
-    src: url("/fonts/STIX2Text-Bold.otf") format("woff");
+    src: url("/fonts/STIX2Text-Bold.woff") format("woff");
     font-weight: bold;
 }
 
 @font-face {
     font-family: "STIX";
-    src: url("/fonts/STIX2Text-Italic.otf") format("woff");
+    src: url("/fonts/STIX2Text-Italic.woff") format("woff");
     font-style: italic;
 }
 
