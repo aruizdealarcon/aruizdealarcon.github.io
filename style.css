@@ -1,17 +1,17 @@
 @font-face {
-    font-family: "STIX";
-    src: url("/fonts/STIX2Text-Regular.woff") format("woff");
+    font-family: "FreeSans";
+    src: url("/fonts/FreeSans.ttf") format("ttf");
 } 
 
 @font-face {
-    font-family: "STIX";
-    src: url("/fonts/STIX2Text-Bold.woff") format("woff");
+    font-family: "FreeSans";
+    src: url("/fonts/FreeSansBold.ttf") format("ttf");
     font-weight: bold;
 }
 
 @font-face {
-    font-family: "STIX";
-    src: url("/fonts/STIX2Text-Italic.woff") format("woff");
+    font-family: "FreeSans";
+    src: url("/fonts/FreeSansOblique.ttf") format("ttf");
     font-style: italic;
 }
 
@@ -20,9 +20,9 @@ a:visited { text-decoration: none; color: #003366; }
 a:hover   { text-decoration: none; color: #000000; }
 
 body {
-    font-family: "STIX", sans-serif;
-    font-size: 13pt;
-    line-height: 1.15;
+    font-family: "FreeSans", sans-serif;
+    font-size: 12pt;
+    line-height: 1.2;
 }
 
 p {
