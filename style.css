@@ -1,27 +1,11 @@
-@font-face {
-    font-family: "FreeSans";
-    src: url("/fonts/FreeSans.ttf") format("truetype");
-} 
-
-@font-face {
-    font-family: "FreeSans";
-    src: url("/fonts/FreeSansBold.ttf") format("truetype");
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "FreeSans";
-    src: url("/fonts/FreeSansOblique.ttf") format("truetype");
-    font-style: italic;
-}
 
 a:link    { text-decoration: none; color: #003366; }
 a:visited { text-decoration: none; color: #003366; }
 a:hover   { text-decoration: none; color: #000000; }
 
 body {
-    font-family: "FreeSans", sans-serif;
-    font-size: 12pt;
+    font-family: "Monospace", sans-serif;
+    font-size: 9pt;
     line-height: 1.2;
 }
 
@@ -73,7 +57,7 @@ li:last-child {
 }
 
 h1, h2 {
-    font-size: 14pt;
+    font-size: 10pt;
     margin-top: 12px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -82,7 +66,7 @@ h1, h2 {
 }
 
 h3 {
-    font-size: 13pt;
+    font-size: 9pt;
     margin-top: 15px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -99,8 +83,8 @@ h3 {
 }
 
 header, section {
-    padding: 15px;
-    border-bottom: black 1px solid;
+    padding: 10px;
+    /*border-bottom: black 1px solid;*/
 }
 
 footer {
