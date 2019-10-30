@@ -1,0 +1,95 @@
+\documentclass[12pt, a4paper, oneside]{amsproc}
+
+\usepackage[utf8]{inputenc}
+%\usepackage[margin=1.5cm]{geometry}
+\usepackage{etoolbox}
+\usepackage{dsfont}
+\usepackage{xcolor}
+\usepackage{cmbright}
+\usepackage[cal=rsfso]{mathalfa}
+\usepackage{tikz-cd}
+
+\renewcommand{\baselinestretch}{1.1}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+
+\pagestyle{plain}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Hopf Algebras}
+\author{Alberto Ruiz de Alarcón}
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+\section{What is an algebra?}
+
+Let $(\mathcal A,+,\,\cdot\,)$ be a vector space over a field $\mathds K$,
+
+endowed with a ``multiplication'' $m:\mathcal A\otimes \mathcal A \to \mathcal A$
+
+and a ``unit'' element $1_{\mathcal A}$, or equivalently, $u:\mathds K\to \mathcal A$.
+
+Suppose the multiplication is associative:
+
+\begin{center}
+\begin{tikzcd}
+\mathcal A\otimes \mathcal A\otimes \mathcal A \arrow[dd, "\mathrm{Id}\otimes m"'] \arrow[rr, "m\otimes\mathrm{Id}"] &  & \mathcal A\otimes \mathcal A \arrow[dd, "m"] \\
+                                                                                          &  &                            \\
+\mathcal A\otimes \mathcal A \arrow[rr, "m"']                                                               &  & \mathcal A                         
+\end{tikzcd}
+\end{center}
+and it is...
+\begin{center}
+...
+\end{center}
+
+It is  said that $(\mathcal A,+,\,\cdot\,,m,u)$ is an algebra (with unit) (or a $\mathds K$-algebra).
+             
+\section{The ``dual'' concept: coalgebras}
+
+Let $(\mathcal C,+,\,\cdot\,)$ be a vector space over a field $\mathds K$
+
+endowed with a ``comultiplication'' $\Delta:\mathcal C\to  \mathcal C\otimes \mathcal C$
+
+and a ``counit'' $\epsilon:\mathcal C\to\mathds K$
+
+It is said then that $(\mathcal C,+,\,\cdot\,,\Delta,\epsilon)$ is a co-algebra.
+
+\section{Bilinear algebras}
+
+\section{Hopf algebras}
+
+Let $(\mathcal B,+,\,\cdot\,,m,u,\Delta,\epsilon)$ be a bilinear algebra.
+
+Suppose there is $S:\mathcal B\to\mathcal B$ such that the following diagram commutes:
+
+\begin{center}
+\begin{tikzcd}
+                                                                             & \mathcal B\otimes \mathcal B \arrow[rr, "\mathrm{Id}_{\mathcal B}\otimes S"] &                           & \mathcal B\otimes\mathcal B \arrow[rd, "m"]   &            \\
+\mathcal B \arrow[rd, "\Delta"'] \arrow[ru, "\Delta"] \arrow[rr, "\epsilon"] &                                                                              & \mathds K \arrow[rr, "u"] &                                               & \mathcal B \\
+                                                                             & \mathcal B\otimes\mathcal B \arrow[rr, "S\otimes\mathrm{Id}_{\mathcal B}"]   &                           & \mathcal B\otimes \mathcal B \arrow[ru, "m"'] &           
+\end{tikzcd}
+\end{center}
+
+The map $S$ is then called an antipode.
+
+It is said then that $(\mathcal B,+,\,\cdot\,,m,u,\Delta,\epsilon,S)$ is a Hopf algebra.
+
+
+In general, $S$ is an antihomomorphism, so $S^2$ is a homomorphism, which is therefore an automorphism if $S$ was invertible (as may be required). 
+
+\subsection*{Involutive Hopf algebras}
+If $S^2 = \mathrm{Id}_{\mathcal B}$, then it is said to be an involutive Hopf algebra.
+
+\subsection*{The antipode is unique if it exists}
+
+If a bialgebra admits an antipode, then it is unique. Thus, the antipode does not pose
+any extra structure which we can choose: \emph{being a Hopf algebra is a property of a bialgebra}.
+
+\end{document}
