@@ -1,11 +1,21 @@
+@font-face {
+  font-family: 'FreeSerif111';
+  src: url('/fonts/FreeSerif.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FreeSerif111';
+  src: url('/fonts/FreeSerifBold.ttf') format('truetype');
+  font-weight: bold;
+}
 
 a:link    { text-decoration: none; color: #003366; }
 a:visited { text-decoration: none; color: #003366; }
 a:hover   { text-decoration: none; color: #000000; }
 
 body {
-    font-family: "Roboto", "Helvetica", sans-serif;
-    font-size: 11pt;
+    font-family: "FreeSerif111", serif;
+    font-size: 14pt;
     line-height: 1.3;
 }
 
@@ -57,7 +67,7 @@ li:last-child {
 }
 
 h1, h2 {
-    font-size: 11pt;
+    font-size: 14pt;
     margin-top: 12px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -66,7 +76,7 @@ h1, h2 {
 }
 
 h3 {
-    font-size: 11pt;
+    font-size: 14pt;
     margin-top: 15px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -75,16 +85,16 @@ h3 {
 
 
 #wrapper {
-    max-width: 550px;
+    max-width: 600px;
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    border-top: black 1px solid;
+    /*border-top: black 1px solid;*/
 }
 
 header, section {
     padding: 10px;
-    border-bottom: black 1px solid;
+    border-bottom: black 1px solid;*/
 }
 
 footer {
