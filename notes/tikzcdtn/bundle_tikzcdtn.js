@@ -1899,7 +1899,7 @@
                         style: {
                             backgroundImage: "url('".concat(r, "')")
                         },
-                        src: "./img/tools/blank.svg",
+                        src: "./img/blank.svg",
                         alt: i
                     })))
                 }
@@ -2139,65 +2139,65 @@
                     })
                 }, Object(o.h)(Et, null, Object(o.h)(St, {
                     checked: !1,
-                    icon: "./img/properties/reverse.svg",
+                    icon: "./img/reverse.svg",
                     name: "Reverse Arrow (R)",
                     onClick: this.handleButtonClick("reversearrow")
                 }), Object(o.h)(Pt, null), Object(o.h)(St, {
                     checked: "tail" === e.tail,
-                    icon: "./img/properties/tail.svg",
+                    icon: "./img/tail.svg",
                     name: "Tail",
                     onClick: this.handleButtonClick("tail")
                 }), Object(o.h)(St, {
                     checked: "mapsto" === e.tail,
-                    icon: "./img/properties/mapsto.svg",
+                    icon: "./img/mapsto.svg",
                     name: "Maps To",
                     onClick: this.handleButtonClick("mapsto")
                 }), Object(o.h)(St, {
                     checked: ["hook", "hookalt"].includes(e.tail),
-                    icon: "./img/properties/".concat("hookalt" === e.tail ? "hookalt" : "hook", ".svg"),
+                    icon: "./img/".concat("hookalt" === e.tail ? "hookalt" : "hook", ".svg"),
                     name: "Hook",
                     onClick: this.handleButtonClick("hook")
                 }), Object(o.h)(Pt, null), Object(o.h)(St, {
-                    icon: "./img/properties/bendright.svg",
+                    icon: "./img/bendright.svg",
                     name: "Bend Right (Down Arrow)",
                     onClick: this.handleButtonClick("bendright")
                 }), Object(o.h)(St, {
                     checked: "dotted" === e.line,
-                    icon: "./img/properties/dotted.svg",
+                    icon: "./img/dotted.svg",
                     name: "Dotted",
                     onClick: this.handleButtonClick("dotted")
                 }), Object(o.h)(St, {
                     checked: "dashed" === e.line,
-                    icon: "./img/properties/dashed.svg",
+                    icon: "./img/dashed.svg",
                     name: "Dashed",
                     onClick: this.handleButtonClick("dashed")
                 }), Object(o.h)(St, {
                     checked: !e.line || "solid" === e.line,
-                    icon: "./img/properties/solid.svg",
+                    icon: "./img/solid.svg",
                     name: "Solid",
                     onClick: this.handleButtonClick("solid")
                 }), Object(o.h)(St, {
-                    icon: "./img/properties/bendleft.svg",
+                    icon: "./img/bendleft.svg",
                     name: "Bend Left (Up Arrow)",
                     onClick: this.handleButtonClick("bendleft")
                 }), Object(o.h)(Pt, null), Object(o.h)(St, {
                     checked: ["harpoon", "harpoonalt"].includes(e.head),
-                    icon: "./img/properties/".concat("harpoonalt" === e.head ? "harpoonalt" : "harpoon", ".svg"),
+                    icon: "./img/".concat("harpoonalt" === e.head ? "harpoonalt" : "harpoon", ".svg"),
                     name: "Harpoon",
                     onClick: this.handleButtonClick("harpoon")
                 }), Object(o.h)(St, {
                     checked: null == e.head,
-                    icon: "./img/properties/head.svg",
+                    icon: "./img/head.svg",
                     name: "Default Head",
                     onClick: this.handleButtonClick("head")
                 }), Object(o.h)(St, {
                     checked: "twoheads" == e.head,
-                    icon: "./img/properties/twoheads.svg",
+                    icon: "./img/twoheads.svg",
                     name: "Two Heads",
                     onClick: this.handleButtonClick("twoheads")
                 }), Object(o.h)(Pt, null), Object(o.h)(St, {
                     checked: !e.labelPosition || "left" === e.labelPosition,
-                    icon: "./img/properties/labelleft.svg",
+                    icon: "./img/labelleft.svg",
                     name: "Left Label (A)",
                     onClick: this.handleButtonClick("labelleft")
                 }), Object(o.h)(St, {
@@ -2207,17 +2207,17 @@
                     onClick: this.handleButtonClick("labelinside")
                 }), Object(o.h)(St, {
                     checked: "right" === e.labelPosition,
-                    icon: "./img/properties/labelright.svg",
+                    icon: "./img/labelright.svg",
                     name: "Right Label (D)",
                     onClick: this.handleButtonClick("labelright")
                 }), Object(o.h)(St, {
                     checked: this.state.edit,
-                    icon: "./img/properties/edit.svg",
+                    icon: "./img/edit.svg",
                     name: "Edit Label (Enter)",
                     onClick: this.handleEditButtonClick
                 }), Object(o.h)(Pt, null), Object(o.h)(St, {
                     class: "remove",
-                    icon: "./img/properties/trash.svg",
+                    icon: "./img/trash.svg",
                     name: "Remove Arrow (Del)",
                     onClick: this.props.onRemoveClick
                 })), Object(o.h)("form", {
@@ -2713,35 +2713,35 @@
                     id: "toolbox"
                 }, Object(o.h)(St, {
                     checked: "pan" === this.state.tool,
-                    icon: "./img/tools/pan.svg",
+                    icon: "./img/pan.svg",
                     name: "Pan Tool (Space)",
                     onClick: this.handleToolClick("pan")
                 }), Object(o.h)(St, {
                     checked: "arrow" === this.state.tool,
-                    icon: "./img/tools/arrow.svg",
+                    icon: "./img/arrow.svg",
                     name: "Arrow Tool (Shift)",
                     onClick: this.handleToolClick("arrow")
                 }), Object(o.h)(Pt, null), Object(o.h)(St, {
                     disabled: null == this.history[this.historyPointer - 1],
-                    icon: "./img/tools/undo.svg",
+                    icon: "./img/undo.svg",
                     name: "Undo",
                     onClick: this.undo
                 }), Object(o.h)(St, {
                     disabled: null == this.history[this.historyPointer + 1],
-                    icon: "./img/tools/redo.svg",
+                    icon: "./img/redo.svg",
                     name: "Redo",
                     onClick: this.redo
                 }), Object(o.h)(Pt, null), Object(o.h)(St, {
                     checked: this.state.showCodeBox,
-                    icon: "./img/tools/code.svg",
+                    icon: "./img/code.svg",
                     name: "Open Code",
                     onClick: this.openCodeBox
                 }), Object(o.h)(St, {
-                    icon: "./img/tools/".concat(this.state.confirmLinkCopy ? "tick" : "link", ".svg"),
+                    icon: "./img/".concat(this.state.confirmLinkCopy ? "tick" : "link", ".svg"),
                     name: "Copy Diagram Permalink",
                     onClick: this.copyLink
                 }), Object(o.h)(Pt, null), Object(o.h)(St, {
-                    icon: "./img/tools/about.svg",
+                    icon: "./img/about.svg",
                     name: "GitHub Repository",
                     onClick: this.handleAboutClick
                 })), Object(o.h)(Wt, {
