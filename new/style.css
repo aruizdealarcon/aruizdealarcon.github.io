@@ -4,10 +4,9 @@ a:visited { text-decoration: none; color: #003366; }
 a:hover   { text-decoration: none; color: #000000; }
 
 body {
-    font-family: Roboto, serif;
-    font-size: 12pt;
-    line-height: 1.5;
-    background-color: #fafbfc;
+    font-family: "Tex Gyre Termes", serif;
+    font-size: 14pt;
+    line-height: 1.4;
 }
 
 p {
@@ -28,7 +27,7 @@ li:last-child {
 }
 
 h1, h2 {
-    font-size: 12pt;
+    font-size: 14pt;
     margin-top: 12px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -37,7 +36,7 @@ h1, h2 {
 }
 
 h3 {
-    font-size: 12pt;
+    font-size: 14pt;
     margin-top: 15px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -45,15 +44,10 @@ h3 {
 }
 
 #wrapper {
-    max-width: 700px;
+    max-width: 650px;
     width: 100%;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.13);
-    box-shadow: 0 1px 5px rgba(0,0,0,0.13);
-    border: 1px solid #ddd;
-    border-radius: 5px 5px 5px 5px;
+    padding: 0px;
 }
 
 header, section {
