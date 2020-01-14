@@ -1,0 +1,103 @@
+
+a:link    { text-decoration: none; color: #003366; }
+a:visited { text-decoration: none; color: #003366; }
+a:hover   { text-decoration: none; color: #000000; }
+
+body {
+    font-family: "Linux Libertine", serif;
+    font-size: 14pt;
+    line-height: 1.3;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    padding-left: 15pt;
+}
+
+li {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+li:last-child {
+    margin-bottom: 0px;
+}
+
+h1, h2 {
+    font-size: 14pt;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 14pt;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#wrapper {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header, section {
+    padding: 10px;
+    border-bottom: black 1px solid;
+}
+
+footer {
+    padding: 15px;
+    text-align: right;
+}
+
+.description {
+    margin: 2px 0px 2px 0px;
+    font-style: italic;
+    font-size: 12pt;
+    color: #707070;
+}
+
+.authors {
+    color: #707070;
+}
+
+.alternatingtab {
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.alternatingtab tr {
+    padding: 5px; 
+    border-top: 1px solid #ddd;
+}
+
+.alternatingtab tr:nth-child(even) {
+    background: #ffffff;
+}
+
+.alternatingtab tr:nth-child(odd) {
+    background: #fcfcfc;
+}
+
+.alternatingtab td {
+    text-align: justify;
+}
+
+.alternatingtab td:first-child {
+    text-align: center;
+    padding-right: 4px;
+    padding-left: 4px;
+    color: #333;
+}
+
