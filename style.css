@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'FreeSerif111';
-  src: url('/fonts/FreeSerif.ttf') format('truetype');
+    font-family: 'FreeSerif111';
+    src: url('/fonts/FreeSerif.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'FreeSerif111';
-  src: url('/fonts/FreeSerifBold.ttf') format('truetype');
-  font-weight: bold;
+    font-family: 'FreeSerif111';
+    src: url('/fonts/FreeSerifBold.ttf') format('truetype');
+    font-weight: bold;
 }
 
-a:link    { text-decoration: none; color: #003366; }
-a:visited { text-decoration: none; color: #003366; }
+a:link    { text-decoration: none; color: #0e5699; }
+a:visited { text-decoration: none; color: #0e5699; }
 a:hover   { text-decoration: none; color: #000000; }
 
 body {
@@ -73,6 +73,7 @@ h1, h2 {
     margin-left: 0px;
     margin-right: 0px;
     text-transform: uppercase;
+    color: #061c63;
 }
 
 h3 {
@@ -81,6 +82,7 @@ h3 {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    color: #0c2987;
 }
 
 
@@ -94,7 +96,7 @@ h3 {
 
 header, section {
     padding: 10px;
-    border-bottom: black 1px solid;*/
+    border-bottom: #919191 1px solid;
 }
 
 footer {
