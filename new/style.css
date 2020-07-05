@@ -6,13 +6,13 @@
 
 @font-face {
   font-family: MyFreeSerif001;
-  src: local("FreeSerif"), url('/new/FreeSerifBold.ttf') format('truetype');
+  src: local("FreeSerif Bold"), url('/new/FreeSerifBold.ttf') format('truetype');
   font-weight: bold;
 }
 
 @font-face {
   font-family: MyFreeSerif001;
-  src: local("FreeSerif"), url('/new/FreeSerifItalic.ttf') format('truetype');
+  src: local("FreeSerif Italic"), url('/new/FreeSerifItalic.ttf') format('truetype');
   font-style: italic;
 }
 
