@@ -61,8 +61,16 @@ p {
     color: #333;
 }
 
+ol {
+    padding-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 ul {
-    padding-left: 15pt;
+    padding-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 li {
