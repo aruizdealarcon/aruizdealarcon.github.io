@@ -22,6 +22,7 @@ body {
 
 p {
     text-align: justify;
+    font-weight: 100;
 }
 
 .alternatingtab {
@@ -75,8 +76,13 @@ li:last-child {
     margin-bottom: 0px;
 }
 
-h1, h2 {
+h1 {
     font-size: 17pt;
+    font-family: "FreeSerif", serif;
+}
+
+h2 {
+    font-size: 15pt;
     font-family: "FreeSerif", serif;
 }
 
