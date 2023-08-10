@@ -1,7 +1,15 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
 
+@font-face {
+  font-family: 'FreeSerif';
+  src: url(/fonts/FreeSerif.ttf);
+}
+ @font-face {
+  font-family: 'FreeSerif';
+  src: url(/fonts/FreeSerifBold.ttf);
+  font-weight: bold;
+}
 
 a:link    { text-decoration: none; color: #0e5699; }
 a:visited { text-decoration: none; color: #0e5699; }
@@ -69,7 +77,7 @@ li:last-child {
 
 h1, h2 {
     font-size: 17pt;
-    font-family: "Old Standard TT", serif;
+    font-family: "FreeSerif", serif;
 }
 
 #wrapper {
