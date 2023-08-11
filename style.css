@@ -1,18 +1,8 @@
 
-@font-face{font-family: "ModernRoman12"; src: url('/fonts/lmroman12-regular.ttf');}
-@font-face{font-family: "ModernRoman12"; src: url('/fonts/lmroman12-bold.ttf'); font-weight: bold;}
-@font-face{font-family: "ModernRoman12"; src: url('/fonts/lmroman12-italic.ttf'); font-style: italic;}
-@font-face{font-family: "ModernRoman17"; src: url('/fonts/lmroman17-regular.ttf');}
-
-@font-face {
-  font-family: 'FreeSerif';
-  src: url(/fonts/FreeSerif.ttf);
-}
- @font-face {
-  font-family: 'FreeSerif';
-  src: url(/fonts/FreeSerifBold.ttf);
-  font-weight: bold;
-}
+@font-face{font-family: "ModernRoman12"; src: url('/fonts/lmroman12-regular.otf');}
+@font-face{font-family: "ModernRoman12"; src: url('/fonts/lmroman12-bold.otf'); font-weight: bold;}
+@font-face{font-family: "ModernRoman12"; src: url('/fonts/lmroman12-italic.otf'); font-style: italic;}
+@font-face{font-family: "ModernRoman17"; src: url('/fonts/lmroman17-regular.otf');}
 
 a:link    { text-decoration: none; color: #0e5699; }
 a:visited { text-decoration: none; color: #0e5699; }
