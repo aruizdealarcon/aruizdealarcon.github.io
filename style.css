@@ -20,14 +20,13 @@ a:hover   { text-decoration: none; color: #000000; }
 
 body {
     font-family: 'computermodern';
-    font-size: 12pt;
+    font-size: 13pt;
 }
 
 p {
     text-align: justify;
-    font-weight: 300;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .alternatingtab {
@@ -90,11 +89,11 @@ h1 {
 
 h2 {
     font-size: 14pt;
-    font-weight: 400;
+    font-weight: normal;
 }
 
 #wrapper {
-    max-width: 700px;
+    max-width: 650px;
     width: 100%;
     margin: 0 auto;
     padding: 50px;
