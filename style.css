@@ -19,7 +19,7 @@ a:visited { text-decoration: none; color: #0e5699; }
 a:hover   { text-decoration: none; color: #000000; }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'computermodern';
     font-size: 12pt;
 }
 
@@ -82,8 +82,9 @@ li:last-child {
 }
 
 h1 {
-    font-size: 17pt;
-    font-family: "FreeSerif", serif;
+    font-size: 16pt;
+  font-weight: normal;
+    font-family: "computermodern", serif;
 }
 
 h2 {
