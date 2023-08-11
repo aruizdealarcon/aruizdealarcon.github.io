@@ -83,8 +83,9 @@ li:last-child {
 
 h1 {
     font-size: 16pt;
-  font-weight: normal;
+    font-weight: normal;
     font-family: "computermodern", serif;
+    text-align: center;
 }
 
 h2 {
