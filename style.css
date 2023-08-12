@@ -16,8 +16,10 @@ body {
     max-width: 675px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     line-height: 1.65em;
 }
 
