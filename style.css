@@ -19,6 +19,7 @@ p {
     margin-top: 12px;
     margin-bottom: 12px;
     hyphens: auto;
+    -moz-hyphens: auto;
 }
 
 .alternatingtab {
