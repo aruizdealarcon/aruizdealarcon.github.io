@@ -4,6 +4,7 @@
 @font-face{font-family: "ModernRoman12"; src: url('/fonts/lmroman12-italic.otf'); font-style: italic;}
 @font-face{font-family: "ModernRoman17"; src: url('/fonts/lmroman17-regular.otf');}
 @font-face{font-family: "ModernRomanMono12"; src: url('/fonts/lmmono12-regular.otf');}
+@font-face{font-family: "ModernRomanDemi10"; src: url('/fonts/lmromandemi10-regular.otf');}
 
 a:link    { text-decoration: none; color: #0e5699; }
 a:visited { text-decoration: none; color: #0e5699; }
@@ -125,6 +126,20 @@ header a {
 
 .pub-title a {
     text-decoration: none;
+    font-family: "ModernRomanDemi10", serif;
+    font-size: 12pt;
+}
+
+.lec-title {
+    text-decoration: none;
+    font-family: "ModernRomanDemi10", serif;
+    font-size: 12pt;
+}
+
+.conf-title {
+    text-decoration: none;
+    font-family: "ModernRomanDemi10", serif;
+    font-size: 12pt;
 }
 
 .pub-authors {
