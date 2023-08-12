@@ -149,7 +149,11 @@ header a {
 
 }
 
-.pub-links {
+.pub-links a {
+    font-family: 'ModernRomanMono12', sans-serif;
+}
+
+.conf-links a {
     font-family: 'ModernRomanMono12', sans-serif;
 }
 
