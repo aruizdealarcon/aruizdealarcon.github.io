@@ -12,6 +12,11 @@ a:hover   { text-decoration: none; color: #000000; }
 body {
     font-family: 'ModernRoman12';
     font-size: 12pt;
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 p {
