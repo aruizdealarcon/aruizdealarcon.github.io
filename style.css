@@ -109,6 +109,7 @@ header p {
 
 header a {
     font-family: 'ModernRomanMono12', sans-serif;
+    font-size: 11pt;
 }
 
 .pub-title {
@@ -120,7 +121,6 @@ header a {
 }
 
 .pub-authors {
-    font-style: italic;
 }
 
 .pub-journal {
