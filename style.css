@@ -18,6 +18,7 @@ p {
     text-align: justify;
     margin-top: 12px;
     margin-bottom: 12px;
+    hyphens: auto;
 }
 
 .alternatingtab {
