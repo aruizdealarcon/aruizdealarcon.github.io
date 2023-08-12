@@ -3,6 +3,7 @@
 @font-face{font-family: "ModernRoman12"; src: url('/fonts/lmroman12-bold.otf'); font-weight: bold;}
 @font-face{font-family: "ModernRoman12"; src: url('/fonts/lmroman12-italic.otf'); font-style: italic;}
 @font-face{font-family: "ModernRoman17"; src: url('/fonts/lmroman17-regular.otf');}
+@font-face{font-family: "ModernRomanMono12"; src: url('/fonts/lmmono12-regular.otf');}
 
 a:link    { text-decoration: none; color: #0e5699; }
 a:visited { text-decoration: none; color: #0e5699; }
@@ -30,7 +31,7 @@ p {
 }
 
 .inst a {
-    font-family: sans-serif;
+    font-family: 'ModernRomanMono12', sans-serif;
 }
 
 .alternatingtab {
