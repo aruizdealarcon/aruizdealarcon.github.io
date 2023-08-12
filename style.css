@@ -20,20 +20,6 @@ p {
     margin-bottom: 12px;
 }
 
-.inst {
-    text-align: center;
-}
-
-.inst p {
-    text-align: center;
-    margin-top: 3pt;
-    margin-bottom: 3pt;
-}
-
-.inst a {
-    font-family: 'ModernRomanMono12', sans-serif;
-}
-
 .alternatingtab {
     border-collapse: collapse;
     width: 100%;
@@ -86,15 +72,17 @@ li:last-child {
 }
 
 h1 {
+    font-family: "ModernRoman17", serif;
     font-size: 17pt;
     font-weight: normal;
-    font-family: "ModernRoman17", serif;
     text-align: center;
 }
 
 h2 {
+    font-family: "ModernRoman17", serif;
     font-size: 14pt;
     font-weight: normal;
+    text-decoration: underline;
 }
 
 #wrapper {
@@ -106,6 +94,41 @@ h2 {
 
 header, section {
     padding: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    margin-top: 3pt;
+    margin-bottom: 3pt;
+}
+
+header a {
+    font-family: 'ModernRomanMono12', sans-serif;
+}
+
+.pub-title {
+
+}
+
+.pub-title a {
+    text-decoration: none;
+}
+
+.pub-authors {
+    font-family: 'ModernRomanMono12', sans-serif;
+    font-style: italic;
+}
+
+.pub-journal {
+
+}
+
+.pub-links {
+    font-family: 'ModernRomanMono12', sans-serif;
 }
 
 footer {
