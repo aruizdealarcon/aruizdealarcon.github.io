@@ -152,15 +152,9 @@ header a {
 }
 
 .pub-links a {
-    font-family: 'ModernRoman12', sans-serif;
+    font-family: 'ModernRomanMono12', sans-serif;
 }
 
 .conf-links a {
-    font-family: 'ModernRoman12', sans-serif;
+    font-family: 'ModernRomanMono12', sans-serif;
 }
-
-footer {
-    padding: 15px;
-    text-align: right;
-}
-
