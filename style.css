@@ -2,9 +2,7 @@
 @font-face{font-family: "ModernRoman12"; src: url('/fonts/cmunrm.ttf');}
 @font-face{font-family: "ModernRoman12"; src: url('/fonts/cmunbx.ttf'); font-weight: bold;}
 @font-face{font-family: "ModernRoman12"; src: url('/fonts/cmunti.ttf'); font-style: italic;}
-@font-face{font-family: "ModernRoman17"; src: url('/fonts/lmroman17-regular.ttf');}
 @font-face{font-family: "ModernRomanMono12"; src: url('/fonts/cmuntt.ttf');}
-@font-face{font-family: "ModernRomanDemi10"; src: url('/fonts/cmunbx.ttf');}
 
 a:link    { text-decoration: none; color: #0e5699; }
 a:visited { text-decoration: none; color: #0e5699; }
@@ -83,24 +81,17 @@ li:last-child {
 }
 
 h1 {
-    font-family: "ModernRoman17", serif;
+    font-family: "ModernRoman12", serif;
     font-size: 17pt;
     font-weight: normal;
     text-align: center;
 }
 
 h2 {
-    font-family: "ModernRoman17", serif;
+    font-family: "ModernRoman12", serif;
     font-size: 15pt;
     font-weight: normal;
     text-decoration: underline;
-}
-
-#wrapper {
-    max-width: 650px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 50px;
 }
 
 header, section {
@@ -114,8 +105,8 @@ header {
 
 header p {
     text-align: center;
-    margin-top: 3pt;
-    margin-bottom: 3pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
 }
 
 header a {
@@ -129,19 +120,19 @@ header a {
 
 .pub-title a {
     text-decoration: none;
-    font-family: "ModernRomanDemi10", serif;
+    font-family: "ModernRoman12", serif;
     font-size: 13pt;
 }
 
 .lec-title {
     text-decoration: none;
-    font-family: "ModernRomanDemi10", serif;
+    font-family: "ModernRoman12", serif;
     font-size: 13pt;
 }
 
 .conf-title {
     text-decoration: none;
-    font-family: "ModernRomanDemi10", serif;
+    font-family: "ModernRoman12", serif;
     font-size: 13pt;
 }
 
@@ -153,11 +144,11 @@ header a {
 }
 
 .pub-links a {
-    font-family: 'ModernRomanMono12', sans-serif;
+    font-family: 'ModernRoman12', sans-serif;
 }
 
 .conf-links a {
-    font-family: 'ModernRomanMono12', sans-serif;
+    font-family: 'ModernRoman12', sans-serif;
 }
 
 footer {
@@ -165,9 +156,3 @@ footer {
     text-align: right;
 }
 
-.description {
-    margin: 2px 0px 2px 0px;
-    font-style: italic;
-    font-size: 13pt;
-    color: #707070;
-}
