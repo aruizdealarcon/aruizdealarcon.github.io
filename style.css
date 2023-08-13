@@ -20,13 +20,13 @@ body {
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
-    line-height: 1.65em;
+    line-height: 1.5em;
 }
 
 p {
     text-align: justify;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 7px;
+    margin-bottom: 7px;
     hyphens: auto;
     -moz-hyphens: auto;
 }
