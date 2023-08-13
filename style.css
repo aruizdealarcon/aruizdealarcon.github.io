@@ -1,10 +1,10 @@
 
-@font-face{font-family: "ModernRoman12"; src: url('/fonts/lmroman12-regular.otf');}
-@font-face{font-family: "ModernRoman12"; src: url('/fonts/lmroman12-bold.otf'); font-weight: bold;}
-@font-face{font-family: "ModernRoman12"; src: url('/fonts/lmroman12-italic.otf'); font-style: italic;}
-@font-face{font-family: "ModernRoman17"; src: url('/fonts/lmroman17-regular.otf');}
-@font-face{font-family: "ModernRomanMono12"; src: url('/fonts/lmmono12-regular.otf');}
-@font-face{font-family: "ModernRomanDemi10"; src: url('/fonts/lmromandemi10-regular.otf');}
+@font-face{font-family: "ModernRoman12"; src: url('/fonts/cmunrm.ttf');}
+@font-face{font-family: "ModernRoman12"; src: url('/fonts/cmunbx.ttf'); font-weight: bold;}
+@font-face{font-family: "ModernRoman12"; src: url('/fonts/cmunti.ttf'); font-style: italic;}
+@font-face{font-family: "ModernRoman17"; src: url('/fonts/lmroman17-regular.ttf');}
+@font-face{font-family: "ModernRomanMono12"; src: url('/fonts/cmuntt.ttf');}
+@font-face{font-family: "ModernRomanDemi10"; src: url('/fonts/cmunbx.ttf');}
 
 a:link    { text-decoration: none; color: #0e5699; }
 a:visited { text-decoration: none; color: #0e5699; }
