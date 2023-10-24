@@ -1,3 +1,8 @@
+@font-face {
+  font-family: MyLocalTexGyreTermes;
+  src: url(/fonts/texgyretermes-regular.otf);
+}
+
 a:link    { text-decoration: none; color: #0e5699; }
 a:visited { text-decoration: none; color: #0e5699; }
 a:hover   { text-decoration: none; color: #000000; }
@@ -11,7 +16,7 @@ html {
 }
 
 body {
-    font-family: 'Tex Gyre Termes';
+    font-family: 'Tex Gyre Termes', MyLocalTexGyreTermes, serif;
     max-width: 730px;
     width: 100%;
     margin: 0 auto;
