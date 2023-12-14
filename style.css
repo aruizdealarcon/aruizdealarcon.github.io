@@ -55,6 +55,10 @@ ul {
     margin-bottom: 10px;
 }
 
+ul > li {
+    list-style-type: circle;
+}
+
 li {
     text-align: justify;
     margin-bottom: 5px;
