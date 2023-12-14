@@ -3,9 +3,18 @@
   src: url(/fonts/texgyretermes-regular.otf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+
 a:link    { text-decoration: none; color: #0e5699; }
 a:visited { text-decoration: none; color: #0e5699; }
 a:hover   { text-decoration: none; color: #000000; }
+
+@supports (font-size-adjust: 1;) {
+    section {
+        font-size-adjust: 0.5;
+    }
+}
 
 html {
   box-sizing: border-box;
@@ -16,8 +25,9 @@ html {
 }
 
 body {
-    font-family: 'Tex Gyre Termes', MyLocalTexGyreTermes, serif;
-    max-width: 730px;
+    font-family: "Raleway", serif;
+    font-weight: 350;
+    max-width: 700px;
     width: 100%;
     margin: 0 auto;
     padding-top: 70px;
@@ -30,40 +40,11 @@ body {
 
 p {
     text-align: justify;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     hyphens: auto;
     -moz-hyphens: auto;
-}
-
-.alternatingtab {
-    border-collapse: collapse;
-    width: 100%;
-    border-bottom: 1px solid #ddd;
-}
-
-.alternatingtab tr {
-    padding: 5px; 
-    border-top: 1px solid #ddd;
-}
-
-.alternatingtab tr:nth-child(even) {
-    background: #ffffff;
-}
-
-.alternatingtab tr:nth-child(odd) {
-    background: #fcfcfc;
-}
-
-.alternatingtab td {
-    text-align: justify;
-}
-
-.alternatingtab td:first-child {
-    text-align: center;
-    padding-right: 4px;
-    padding-left: 4px;
-    color: #333;
+    line-height: calc(1ex / 0.32);
 }
 
 ol {
@@ -88,15 +69,18 @@ li:last-child {
 }
 
 h1 {
-    font-size: 17pt;
-    font-weight: normal;
+    font-size: 1.15em;
+    font-weight: 400;
     text-align: left;
 }
 
 h2 {
-    font-size: 15pt;
-    font-weight: normal;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: left;
     text-decoration: underline;
+    line-height: calc(1ex / 0.42);
+    margin: calc(1ex / 0.42) 0;
 }
 
 header, section {
@@ -105,6 +89,7 @@ header, section {
 }
 
 header {
+    background-color: yellow;
 }
 
 header p {
@@ -117,30 +102,14 @@ header a {
     font-size: 1em;
 }
 
-.pub-title {
-
-}
-
-.pub-title a {
-    text-decoration: none;
-    font-size: 1em;
-}
-
-.lec-title {
-    text-decoration: none;
-    font-size: 1em;
-}
-
-.conf-title {
-    text-decoration: none;
-    font-size: 1em;
+.pub-title, .lec-title, .conf-title  {
+    font-weight: 400;
 }
 
 .pub-authors {
-    /*! font-style: italic; */
+    font-weight: 350;
 }
 
 .pub-journal {
 
 }
-
