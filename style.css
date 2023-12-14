@@ -1,9 +1,5 @@
-@font-face {
-  font-family: MyLocalTexGyreTermes;
-  src: url(/fonts/texgyretermes-regular.otf);
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
 
 a:link    { text-decoration: none; color: #0e5699; }
@@ -25,7 +21,7 @@ html {
 }
 
 body {
-    font-family: "Raleway", serif;
+    font-family: "Source Sans 3", serif;
     font-weight: 350;
     max-width: 700px;
     width: 100%;
@@ -35,7 +31,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     line-height: 1.25em;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 p {
@@ -89,7 +85,7 @@ header, section {
 }
 
 header {
-    background-color: yellow;
+    /*background-color: yellow*/
 }
 
 header p {
