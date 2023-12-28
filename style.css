@@ -2,9 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
 
-a:link    { text-decoration: none; color: #0e5699; }
-a:visited { text-decoration: none; color: #0e5699; }
-a:hover   { text-decoration: none; color: #000000; }
+a:link    { text-decoration: none; color: #1D699B; }
+a:visited { text-decoration: none; color: #1D699B; }
+a:hover   { text-decoration: none; color: #1D699B; }
 
 @supports (font-size-adjust: 1;) {
     section {
