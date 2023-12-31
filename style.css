@@ -1,6 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@font-face {
+  font-family: "CMRoman12";
+  src: url(./fonts/cmunrm.ttf);
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+@font-face {
+  font-family: "CMRoman12";
+  font-style: italic;
+  src: url(./fonts/cmunti.ttf);
+}
+
+@font-face {
+  font-family: "CMRoman12TT";
+  font-style: italic;
+  src: url(./fonts/cmuntt.ttf);
+}
 
 a:link    { text-decoration: none; color: #1D699B; }
 a:visited { text-decoration: none; color: #1D699B; }
@@ -21,7 +34,7 @@ html {
 }
 
 body {
-    font-family: "Source Sans 3", serif;
+    font-family: "CMRoman12", serif;
     font-weight: 350;
     max-width: 700px;
     width: 100%;
@@ -70,14 +83,14 @@ li:last-child {
 
 h1 {
     font-size: 1.15em;
-    font-weight: 400;
     text-align: left;
+    font-weight: normal;
 }
 
 h2 {
     font-size: 1.1em;
-    font-weight: 400;
     text-align: left;
+    font-weight: normal;
     text-decoration: underline;
     line-height: calc(1ex / 0.42);
     margin: calc(1ex / 0.42) 0;
@@ -103,13 +116,19 @@ header a {
 }
 
 .pub-title, .lec-title, .conf-title  {
-    font-weight: 400;
+    color: black;
+    margin-top: 25px;
+    hyphens: auto;
+    -moz-hyphens: auto;
 }
 
 .pub-authors {
-    font-weight: 350;
+    font-style: italic;
 }
 
 .pub-journal {
 
+}
+.pub-links {
+    font-family: "CMRoman12TT", serif;
 }
