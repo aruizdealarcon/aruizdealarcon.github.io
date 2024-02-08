@@ -48,8 +48,8 @@ body {
 
 p {
     text-align: justify;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     hyphens: auto;
     -moz-hyphens: auto;
     line-height: calc(1ex / 0.32);
