@@ -14,7 +14,7 @@
   src: url(./fonts/cmuntt.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 a:link    { text-decoration: none; color: #1D699B; }
 a:visited { text-decoration: none; color: #1D699B; }
