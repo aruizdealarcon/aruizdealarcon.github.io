@@ -9,12 +9,15 @@
   src: url(./fonts/cmunti.ttf);
 }
 
-  @font-face {
+@font-face {
   font-family: "CMRoman12TT";
   src: url(./fonts/cmuntt.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@font-face {
+  font-family: "Quicksand";
+  src: url(./fonts/Quicksand-Light.ttf);
+}
 
 a:link    { text-decoration: none; color: #1D699B; }
 a:visited { text-decoration: none; color: #1D699B; }
@@ -36,7 +39,7 @@ html {
 
 body {
     font-family: "Quicksand", "CMRoman12", serif;
-    font-weight: 350;
+    font-weight: 300;
     max-width: 700px;
     width: 100%;
     margin: 0 auto;
