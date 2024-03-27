@@ -16,7 +16,13 @@
 
 @font-face {
   font-family: "Quicksand";
-  src: url(./fonts/Quicksand-Light.ttf);
+  src: url(./fonts/Quicksand-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url(./fonts/Quicksand-Medium.ttf);
+  font-weight: 500;
 }
 
 a:link    { text-decoration: none; color: #1D699B; }
@@ -38,8 +44,8 @@ html {
 }
 
 body {
-    font-family: "Quicksand", "CMRoman12", serif;
-    font-weight: 300;
+    font-family: "Quicksand", serif;
+    font-weight: 400;
     max-width: 700px;
     width: 100%;
     margin: 0 auto;
@@ -48,7 +54,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     line-height: 1.25em;
-    font-size: 1.15em;
+    font-size: 1.05em;
 }
 
 p {
@@ -86,7 +92,7 @@ li:last-child {
 }
 
 h1 {
-    font-size: 1.15em;
+    font-size: 1.1em;
     text-align: left;
     font-weight: normal;
 }
@@ -121,6 +127,7 @@ header a {
 
 .pub-title, .lec-title, .conf-title  {
     color: black;
+    font-weight: 500;
     margin-top: 25px;
     hyphens: auto;
     -moz-hyphens: auto;
