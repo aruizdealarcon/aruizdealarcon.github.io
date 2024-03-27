@@ -14,6 +14,8 @@
   src: url(./fonts/cmuntt.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap')
+
 a:link    { text-decoration: none; color: #1D699B; }
 a:visited { text-decoration: none; color: #1D699B; }
 a:hover   { text-decoration: none; color: #1D699B; }
@@ -33,7 +35,7 @@ html {
 }
 
 body {
-    font-family: "CMRoman12", serif;
+    font-family: "Quicksand", "CMRoman12", serif;
     font-weight: 350;
     max-width: 700px;
     width: 100%;
