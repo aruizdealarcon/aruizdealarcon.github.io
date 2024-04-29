@@ -1,52 +1,4 @@
-@font-face {
-  font-family: "Quicksand";
-  src: url(./fonts/Quicksand-Regular.ttf);
-}
-
-@font-face {
-  font-family: "Quicksand";
-  src: url(./fonts/Quicksand-Medium.ttf);
-  font-weight: 500;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
-
-.poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.poppins-regular-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
 
 a:link    { text-decoration: none; color: #1D699B; }
 a:visited { text-decoration: none; color: #1D699B; }
@@ -68,7 +20,7 @@ html {
 
 body {
     font-family: "Poppins", serif;
-    font-weight: 400;
+    font-weight: 300;
     max-width: 750px;
     width: 100%;
     margin: 0 auto;
@@ -77,7 +29,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     line-height: 1.25em;
-    font-size: 1.05em;
+    font-size: 0.95em;
 }
 
 p {
