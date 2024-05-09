@@ -4,11 +4,19 @@
     <script>
       function replace(){
         var ntext = document.getElementById("myInp").value;
-        ntext = ntext.replace(/\\pic\[fill=white/, /\\node\[white tensor/);
+        ntext = ntext.replace(/\\pic\[fill=white/, "["+"node[white tensor");
         document.getElementById("myOutp").value = ntext;
       }
     </script>
   </head>
+  <!-- 
+        ntext = ntext.replace('\\pic[orange]', '\\node[red tensor]');
+        ntext = ntext.replace('{ipe disk}', '{}');
+        ntext = ntext.replace('{ipe fdisk}', '{}');
+        ntext = ntext.replace('[ipe import, baseline, trim left]', '[scale=0.01]');
+        ntext = ntext.replace('darkorange', 'virtual');
+        ntext = ntext.replace('\\pic', '\\node');
+  -->
   <body>
     <textarea rows="40" cols="70" id="myInp"></textarea>
     <textarea rows="40" cols="70" id="myOutp"></textarea>
