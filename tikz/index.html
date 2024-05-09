@@ -53,7 +53,7 @@
         ntext = ntext.replaceAll(/\)\n\s+arc/g, ") arc");
         ntext = ntext.replaceAll(/\b\d+\.\d{4}\b/g, (match) => { return parseFloat(match).toFixed(2); });
         ntext = reorderTikzNodes(ntext);
-        ntext = removeNoDisplayDraws(ntext);
+        //ntext = removeNoDisplayDraws(ntext);
         document.getElementById("myOutp").value = ntext;
       }
     </script>
