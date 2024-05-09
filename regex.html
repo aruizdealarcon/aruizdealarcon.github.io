@@ -2,7 +2,7 @@
 <html>
   <head>
     <script>
-      function replace(){
+      function tikzReplace(){
         let ntext = document.getElementById("myInp").value;
         ntext = ntext.replaceAll(/\\pic\[fill=white/, "\\node[white tensor");
         ntext = ntext.replaceAll(/\\pic\[orange/, "\\node[red tensor");
@@ -11,6 +11,13 @@
         ntext = ntext.replaceAll(/\{ipe [A-Za-z0-9]+\}/, "{}");
         ntext = ntext.replaceAll(/\[ipe import, baseline, trim left\]/, "[scale=0.01]");
         document.getElementById("myOutp").value = ntext;
+      }
+      function tikzRepCopy(){
+         tikzReplace();
+        var copyText = document.getElementById("myOutp");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
       }
     </script>
   </head>
@@ -25,6 +32,7 @@
   <body>
     <textarea rows="40" cols="70" id="myInp"></textarea>
     <textarea rows="40" cols="70" id="myOutp"></textarea>
-    <button id="button" onclick="replace();">IPETikZ to TikZ</button>
+    <button id="button" onclick="tikzReplace();">Convert</button>
+    <button id="button" onclick="tikzRepCopy();">Convert+Copy</button>
   </body>
 </html>
