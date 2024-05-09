@@ -10,6 +10,7 @@
         ntext = ntext.replaceAll(/\\pic\[blue/g, "\\node[blue tensor");
         ntext = ntext.replaceAll(/scale=1.25/g, "");
         ntext = ntext.replaceAll(/->/g, "arr");
+        ntext = ntext.replaceAll(/<-/g, "arr rev");
         ntext = ntext.replaceAll(/darkorange/g, "virtual");
         ntext = ntext.replaceAll(/\\pic/g, "\\node[black tensor]");
         ntext = ntext.replaceAll(/\{ipe [A-Za-z0-9]+\}/g, "{}");
