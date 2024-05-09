@@ -2,6 +2,23 @@
 <html style="margin 0 auto">
   <head>
     <script>
+      function reorderTikzNodes(tikzCode) {
+          // Patrón para encontrar bloques de tikzpicture
+          const tikzPattern = /\\begin{tikzpicture}([\s\S]*?)\\end{tikzpicture}/g;
+          // Función para procesar cada bloque de tikzpicture encontrado
+          return tikzCode.replace(tikzPattern, (match) => {
+              // Separamos los nodos del resto del contenido
+              const nodePattern = /(\\node.*?;)/g;
+              let nodes = [];
+              let content = match.replace(nodePattern, (nodeMatch) => {
+                  nodes.push(nodeMatch);
+                  return "";  // Removemos el nodo del lugar original
+              });
+              // Agregamos los nodos encontrados antes del \end{tikzpicture}
+              content = content.replace(/\\end{tikzpicture}/, nodes.join("\n") + "\n\\end{tikzpicture}");
+              return content;
+          });
+      }
       function tikzReplace(){
         let ntext = document.getElementById("myInp").value;
         ntext = ntext.replaceAll(/\\pic\[fill=white/g, "\\node[white tensor");
@@ -23,7 +40,7 @@
         ntext = ntext.replaceAll(/\)\n\s+--\s/g, ") -- ");
         ntext = ntext.replaceAll(/\)\n\s+arc/g, ") arc");
         ntext = ntext.replaceAll(/\b\d+\.\d{4}\b/g, (match) => { return parseFloat(match).toFixed(2); });
-        document.getElementById("myOutp").value = ntext;
+        document.getElementById("myOutp").value = reorderTikzNodes(ntext);
       }
     </script>
     <script>
