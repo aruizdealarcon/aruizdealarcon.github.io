@@ -4,16 +4,16 @@
     <script>
       function replace(){
         var ntext = document.getElementById("textarea").value;
-        ntext = text.replace("\pic[fill=white]", "\node[white tensor]");
-        ntext = text.replace("\pic[orange]", "\node[red tensor]");
-        ntext = text.replace("{ipe disk}", "{}");
-        ntext = text.replace("{ipe fdisk}", "{}");
-        document.getElementById("textarea").value = text;
+        ntext = ntext.replace('\pic[fill=white]', '\node[white tensor]');
+        ntext = ntext.replace('\pic[orange]', '\node[red tensor]');
+        ntext = ntext.replace('{ipe disk}', '{}');
+        ntext = ntext.replace('{ipe fdisk}', '{}');
+        document.getElementById("textarea").value = ntext;
       }
     </script>
   </head>
   <body>
     <textarea rows="10" cols="50" id="textarea"></textarea>
-    <button id="button" onclick="replace();">replace</button>
+    <button id="button" onclick="replace();">Replace</button>
   </body>
 </html>
