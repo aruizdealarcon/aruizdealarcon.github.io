@@ -30,13 +30,10 @@
                   nodes.push(nodeMatch);
                   return "";  // Removemos el nodo del lugar original
               });
-      
               // Agregamos los nodos encontrados antes del \end{tikzpicture}
               content = content.replace(/\\end{tikzpicture}/, nodes.join("\n") + "\n\\end{tikzpicture}");
-      
               // Eliminamos líneas vacías adicionales
               content = content.replace(/^\s*[\r\n]/gm, '');
-      
               return content;
           });
       }
@@ -105,7 +102,7 @@
         ntext = scaleCoordinates(ntext);
         ntext = scaleRadius(ntext);
         ntext = removeNoDisplayDraws(ntext);
-        ntext = removeNewLines(ntext);
+        //ntext = removeNewLines(ntext);
         ntext = reorderTikzNodes(ntext);
         document.getElementById("myOutp").value = ntext;
       }
