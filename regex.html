@@ -17,8 +17,8 @@
         ntext = ntext.replaceAll(/, ,/g, ",");
         ntext = ntext.replaceAll(/\]\n\s+at\s\(/g, "] at (");
         ntext = ntext.replaceAll(/\]\n\s\(/g, "] (");
-        ntext = ntext.replaceAll(/)\n\s+--\s/g, ") -- ");
-        ntext = ntext.replaceAll(/)\n\s+arc/g, ") arc");
+        ntext = ntext.replaceAll(/\)\n\s+--\s/g, ") -- ");
+        ntext = ntext.replaceAll(/\)\n\s+arc/g, ") arc");
         ntext = ntext.replaceAll(/\b\d+\.\d{4}\b/g, (match) => { return parseFloat(match).toFixed(3); });
         document.getElementById("myOutp").value = ntext;
       }
