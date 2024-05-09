@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="margin 0 auto">
   <head>
     <script>
       function tikzReplace(){
@@ -44,10 +44,12 @@
         ntext = ntext.replace('darkorange', 'virtual');
         ntext = ntext.replace('\\pic', '\\node');
   -->
-  <body>
+  <body style="margin 0 auto; text-align:center">
+    <div>
     <textarea rows="40" cols="70" id="myInp"></textarea>
     <textarea rows="40" cols="70" id="myOutp"></textarea>
-    <button id="button" onclick="tikzReplace();">Convert</button>
-    <button id="button" onclick="tikzRepCopy();">Convert+Copy</button>
+    </div>
+    <button style="padding: 20px" id="buttonC" onclick="tikzReplace();">Convert</button>
+    <button style="padding: 20px" id="buttonCC" onclick="tikzRepCopy();">Convert &amp; copy to clipboard</button>
   </body>
 </html>
