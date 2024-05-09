@@ -3,7 +3,7 @@
   <head>
     <script>
       function replace(){
-        var ntext = document.getElementById("myInp").value;
+        let ntext = document.getElementById("myInp").value;
         ntext = ntext.replace(/\\pic\[fill=white/, "\\node[white tensor");
         ntext = ntext.replace(/\\pic\[orange/, "\\node[red tensor");
         ntext = ntext.replace(/darkorange/, "virtual");
