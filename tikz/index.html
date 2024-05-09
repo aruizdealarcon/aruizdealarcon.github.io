@@ -40,7 +40,7 @@
         ntext = ntext.replaceAll(/darkorange/g, "virtual");
         ntext = ntext.replaceAll(/\\pic/g, "\\node[black tensor]");
         ntext = ntext.replaceAll(/\{ipe [A-Za-z0-9]+\}/g, "{}");
-        ntext = ntext.replaceAll(/\[ipe import, baseline, trim left\]/g, "[scale=0.01]");
+        ntext = ntext.replaceAll(/\[ipe import, baseline, trim left\]/g, "[ipe settings]");
         ntext = ntext.replaceAll(/, ,/g, ",");
         ntext = ntext.replaceAll(/\]\n\s+at\s\(/g, "] at (");
         ntext = ntext.replaceAll(/\)\n\s+--\s/g, ") -- ");
