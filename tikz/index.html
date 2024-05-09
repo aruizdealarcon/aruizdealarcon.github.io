@@ -74,6 +74,7 @@
         ntext = ntext.replaceAll(/\\pic\[darkorange/g, "\\node[orange tensor");
         ntext = ntext.replaceAll(/\\pic\[red/g, "\\node[red tensor");
         ntext = ntext.replaceAll(/\\pic\[blue/g, "\\node[blue tensor");
+        ntext = ntext.replaceAll(/\\pic\[gray/g, "\\node[gray tensor");
         ntext = ntext.replaceAll(/turquoise/g, "nodisplay");
         ntext = ntext.replaceAll(/->/g, "arr");
         ntext = ntext.replaceAll(/<-/g, "arr rev");
@@ -86,10 +87,10 @@
         ntext = ntext.replaceAll(/\)\n\s+--\s/g, ") -- ");
         ntext = ntext.replaceAll(/\)\n\s+arc/g, ") arc");
         //ntext = ntext.replaceAll(/\b\d+\.\d{4}\b/g, (match) => { return parseFloat(match).toFixed(2); });
-        ntext = reorderTikzNodes(ntext);
         ntext = scaleCoordinates(ntext);
         ntext = scaleRadius(ntext);
         ntext = removeNoDisplayDraws(ntext);
+        ntext = reorderTikzNodes(ntext);
         document.getElementById("myOutp").value = ntext;
       }
     </script>
