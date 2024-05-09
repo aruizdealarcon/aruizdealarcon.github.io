@@ -65,7 +65,7 @@
           const drawPattern = /\\draw\s*\[[^\]]*nodisplay[^\]]*\].*?;/g;
       
           // Reemplazamos los \draw que cumplen con el patrón por una cadena vacía
-          return tikzCode.replace(drawPattern, '');
+          return tikzCode.replaceAll(drawPattern, '');
       }
       function tikzReplace(){
         let ntext = document.getElementById("myInp").value;
