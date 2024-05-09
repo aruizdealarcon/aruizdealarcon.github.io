@@ -5,6 +5,18 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
     <script>
+      function removeNewLines(text) {
+          // Esta expresión regular buscará saltos de línea precedidos por cualquier carácter que no sea ';'
+          // y también asegurará que no se eliminen saltos de línea después de '{tikzpicture}'
+          return text.replace(/([^;{tikzpicture}])\s*\n/g, (match, p1) => {
+              // Si el grupo capturado es '{tikzpicture}', entonces reintroducimos el salto de línea.
+              if (p1.includes('{tikzpicture}')) {
+                  return p1 + '\n';
+              }
+              // De lo contrario, eliminamos el salto de línea.
+              return p1;
+          });
+      }
       function reorderTikzNodes(tikzCode) {
           // Patrón para encontrar bloques de tikzpicture
           const tikzPattern = /\\begin{tikzpicture}([\s\S]*?)\\end{tikzpicture}/g;
@@ -93,6 +105,7 @@
         ntext = scaleCoordinates(ntext);
         ntext = scaleRadius(ntext);
         ntext = removeNoDisplayDraws(ntext);
+        ntext = removeNewLines(ntext);
         ntext = reorderTikzNodes(ntext);
         document.getElementById("myOutp").value = ntext;
       }
