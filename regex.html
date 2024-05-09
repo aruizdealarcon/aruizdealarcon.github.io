@@ -4,8 +4,12 @@
     <script>
       function replace(){
         var ntext = document.getElementById("myInp").value;
-        ntext = ntext.replace(/\\pic\[fill=white/, "["+"node[white tensor");
+        ntext = ntext.replace(/\\pic\[fill=white/, "\\node[white tensor");
+        ntext = ntext.replace(/\\pic\[orange/, "\\node[red tensor");
+        ntext = ntext.replace(/darkorange/, "virtual");
+        ntext = ntext.replace(/\\pic/, "\\node[black tensor");
         ntext = ntext.replace(/\{ipe [A-Za-z0-9]+\}/, "{}");
+        ntext = ntext.replace(/\[ipe import, baseline, trim left\]/, "[scale=0.01]");
         document.getElementById("myOutp").value = ntext;
       }
     </script>
