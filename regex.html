@@ -4,12 +4,12 @@
     <script>
       function tikzReplace(){
         let ntext = document.getElementById("myInp").value;
-        ntext = ntext.replaceAll(/\\pic\[fill=white/, "\\node[white tensor");
-        ntext = ntext.replaceAll(/\\pic\[orange/, "\\node[red tensor");
-        ntext = ntext.replaceAll(/darkorange/, "virtual");
-        ntext = ntext.replaceAll(/\\pic/, "\\node[black tensor");
-        ntext = ntext.replaceAll(/\{ipe [A-Za-z0-9]+\}/, "{}");
-        ntext = ntext.replaceAll(/\[ipe import, baseline, trim left\]/, "[scale=0.01]");
+        ntext = ntext.replaceAll(/\\pic\[fill=white/g, "\\node[white tensor");
+        ntext = ntext.replaceAll(/\\pic\[orange/g, "\\node[red tensor");
+        ntext = ntext.replaceAll(/darkorange/g, "virtual");
+        ntext = ntext.replaceAll(/\\pic/g, "\\node[black tensor");
+        ntext = ntext.replaceAll(/\{ipe [A-Za-z0-9]+\}/g, "{}");
+        ntext = ntext.replaceAll(/\[ipe import, baseline, trim left\]/g, "[scale=0.01]");
         document.getElementById("myOutp").value = ntext;
       }
     <script>
