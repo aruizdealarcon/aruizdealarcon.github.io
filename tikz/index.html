@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html style="margin 0 auto">
   <head>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <link rel="stylesheet" type="text/css" href="/style.css" />
     <script>
       function reorderTikzNodes(tikzCode) {
           // Patrón para encontrar bloques de tikzpicture
@@ -80,7 +84,7 @@
       Settings file: <a href="/tikz/tikz_custom.tex">tikz_custom.tex</a>
     <div>
     <textarea rows="40" cols="70" id="myInp"></textarea>
-    <textarea rows="40" cols="70" id="myOutp"></textarea>
+    <textarea rows="40" cols="70" id="myOutp" style="background-color:#f3fff6"></textarea>
     </div>
     <button style="padding: 20px" id="buttonC" onclick="tikzReplace();">Convert</button>
     <button style="padding: 20px" id="buttonCC" onclick="tikzRepCopy();">Convert &amp; copy to clipboard</button>
