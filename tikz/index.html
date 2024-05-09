@@ -62,7 +62,7 @@
       }
       function removeNoDisplayDraws(tikzCode) {
           // Patrón para encontrar \draw con 'nodisplay' en sus atributos
-          const drawPattern = /\\draw\s*\[[^\]]*nodisplay[^\]]*\].*?;/g;
+          const drawPattern = /\\draw\s*\[[^\]]*nodisplay[^\]]*\][\s\S]*?;/g;
       
           // Reemplazamos los \draw que cumplen con el patrón por una cadena vacía
           return tikzCode.replaceAll(drawPattern, '');
