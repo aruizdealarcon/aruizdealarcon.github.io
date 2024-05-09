@@ -8,6 +8,9 @@
         ntext = ntext.replace('\pic[orange]', '\node[red tensor]');
         ntext = ntext.replace('{ipe disk}', '{}');
         ntext = ntext.replace('{ipe fdisk}', '{}');
+        ntext = ntext.replace('[ipe import, baseline, trim left]', '[scale=0.01]');
+        ntext = ntext.replace('darkorange', 'virtual');
+        ntext = ntext.replace('\pic', '\node');
         document.getElementById("textarea").value = ntext;
       }
     </script>
