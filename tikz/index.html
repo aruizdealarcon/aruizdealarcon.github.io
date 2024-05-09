@@ -28,6 +28,23 @@
               return content;
           });
       }
+      function scaleCoordinates(tikzCode) {
+          // Patrón para encontrar todas las coordenadas (x,y)
+          const coordPattern = /\((-?\d+\.?\d*),\s*(-?\d+\.?\d*)\)/g;
+      
+          // Función para procesar y reemplazar cada coincidencia
+          const replacementFunction = (match, p1, p2) => {
+              // Convertimos los valores a números y los dividimos por 100
+              let x = parseFloat(p1) / 100;
+              let y = parseFloat(p2) / 100;
+              // Formateamos el resultado a un número con precisión adecuada
+              // (opcional) y devolvemos la nueva coordenada
+              return `(${x.toFixed(3)},${y.toFixed(3)})`;
+          };
+      
+          // Reemplazamos en el código original
+          return tikzCode.replace(coordPattern, replacementFunction);
+      }
       function removeNoDisplayDraws(tikzCode) {
           // Patrón para encontrar \draw con 'nodisplay' en sus atributos
           const drawPattern = /\\draw\s*\[[^\]]*nodisplay[^\]]*\].*?;/g;
@@ -54,8 +71,9 @@
         ntext = ntext.replaceAll(/\]\n\s+at\s\(/g, "] at (");
         ntext = ntext.replaceAll(/\)\n\s+--\s/g, ") -- ");
         ntext = ntext.replaceAll(/\)\n\s+arc/g, ") arc");
-        ntext = ntext.replaceAll(/\b\d+\.\d{4}\b/g, (match) => { return parseFloat(match).toFixed(2); });
+        //ntext = ntext.replaceAll(/\b\d+\.\d{4}\b/g, (match) => { return parseFloat(match).toFixed(2); });
         ntext = reorderTikzNodes(ntext);
+        ntext = scaleCoordinates(ntext);
         //ntext = removeNoDisplayDraws(ntext);
         document.getElementById("myOutp").value = ntext;
       }
