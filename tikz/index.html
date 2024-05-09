@@ -25,6 +25,13 @@
               return content;
           });
       }
+      function removeNoDisplayDraws(tikzCode) {
+          // Patrón para encontrar \draw con 'nodisplay' en sus atributos
+          const drawPattern = /\\draw\s*\[[^\]]*nodisplay[^\]]*\].*?;/g;
+      
+          // Reemplazamos los \draw que cumplen con el patrón por una cadena vacía
+          return tikzCode.replace(drawPattern, '');
+      }
       function tikzReplace(){
         let ntext = document.getElementById("myInp").value;
         ntext = ntext.replaceAll(/\\pic\[fill=white/g, "\\node[white tensor");
@@ -46,7 +53,9 @@
         ntext = ntext.replaceAll(/\)\n\s+--\s/g, ") -- ");
         ntext = ntext.replaceAll(/\)\n\s+arc/g, ") arc");
         ntext = ntext.replaceAll(/\b\d+\.\d{4}\b/g, (match) => { return parseFloat(match).toFixed(2); });
-        document.getElementById("myOutp").value = reorderTikzNodes(ntext);
+        ntext = reorderTikzNodes(ntext);
+        ntext = removeNoDisplayDraws(ntext);
+        document.getElementById("myOutp").value = ntext;
       }
     </script>
     <script>
