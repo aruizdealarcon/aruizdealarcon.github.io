@@ -5,6 +5,7 @@
       function replace(){
         var ntext = document.getElementById("myInp").value;
         ntext = ntext.replace(/\\pic\[fill=white/, "["+"node[white tensor");
+        ntext = ntext.replace(/\{ipe [A-Za-z0-9]+\}/, "{}");
         document.getElementById("myOutp").value = ntext;
       }
     </script>
