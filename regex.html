@@ -15,6 +15,7 @@
         ntext = ntext.replaceAll(/\{ipe [A-Za-z0-9]+\}/g, "{}");
         ntext = ntext.replaceAll(/\[ipe import, baseline, trim left\]/g, "[scale=0.01]");
         ntext = ntext.replaceAll(/, ,/g, ",");
+        ntext = ntext.replaceAll(/\]\s+at\n\(/g, "] at (");
         document.getElementById("myOutp").value = ntext;
       }
     </script>
