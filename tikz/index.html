@@ -45,6 +45,21 @@
           // Reemplazamos en el código original
           return tikzCode.replace(coordPattern, replacementFunction);
       }
+      function scaleRadius(tikzCode) {
+          // Patrón para encontrar todas las cadenas 'radius=x'
+          const radiusPattern = /radius\s*=\s*(-?\d+\.?\d*)/g;
+      
+          // Función para procesar y reemplazar cada coincidencia
+          const replacementFunction = (match, p1) => {
+              // Convertimos el valor a número y lo dividimos por 100
+              let scaledValue = parseFloat(p1) / 100;
+              // Formateamos el resultado a un número con precisión de tres decimales
+              return `radius=${scaledValue.toFixed(3)}`;
+          };
+      
+          // Reemplazamos en el código original
+          return tikzCode.replace(radiusPattern, replacementFunction);
+      }
       function removeNoDisplayDraws(tikzCode) {
           // Patrón para encontrar \draw con 'nodisplay' en sus atributos
           const drawPattern = /\\draw\s*\[[^\]]*nodisplay[^\]]*\].*?;/g;
@@ -60,13 +75,12 @@
         ntext = ntext.replaceAll(/\\pic\[red/g, "\\node[red tensor");
         ntext = ntext.replaceAll(/\\pic\[blue/g, "\\node[blue tensor");
         ntext = ntext.replaceAll(/turquoise/g, "nodisplay");
-        ntext = ntext.replaceAll(/scale=1.25/g, "");
         ntext = ntext.replaceAll(/->/g, "arr");
         ntext = ntext.replaceAll(/<-/g, "arr rev");
         ntext = ntext.replaceAll(/darkorange/g, "virtual");
         ntext = ntext.replaceAll(/\\pic/g, "\\node[black tensor]");
         ntext = ntext.replaceAll(/\{ipe [A-Za-z0-9]+\}/g, "{}");
-        ntext = ntext.replaceAll(/\[ipe import, baseline, trim left\]/g, "[ipe settings]");
+        ntext = ntext.replaceAll(/\[ipe import, baseline, trim left\]/g, "");
         ntext = ntext.replaceAll(/, ,/g, ",");
         ntext = ntext.replaceAll(/\]\n\s+at\s\(/g, "] at (");
         ntext = ntext.replaceAll(/\)\n\s+--\s/g, ") -- ");
@@ -74,6 +88,7 @@
         //ntext = ntext.replaceAll(/\b\d+\.\d{4}\b/g, (match) => { return parseFloat(match).toFixed(2); });
         ntext = reorderTikzNodes(ntext);
         ntext = scaleCoordinates(ntext);
+        ntext = scaleRadius(ntext);
         //ntext = removeNoDisplayDraws(ntext);
         document.getElementById("myOutp").value = ntext;
       }
