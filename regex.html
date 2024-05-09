@@ -16,6 +16,7 @@
         ntext = ntext.replaceAll(/\[ipe import, baseline, trim left\]/g, "[scale=0.01]");
         ntext = ntext.replaceAll(/, ,/g, ",");
         ntext = ntext.replaceAll(/\]\n\s+at\s\(/g, "] at (");
+        ntext = ntext.replaceAll(/\b\d+\.\d{4}\b/g, (match) => { return parseFloat(match).toFixed(3); });
         document.getElementById("myOutp").value = ntext;
       }
     </script>
