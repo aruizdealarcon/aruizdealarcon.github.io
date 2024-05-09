@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function replace(){
+        var ntext = document.getElementById("textarea").value;
+        ntext = text.replace("\pic[fill=white]", "\node[white tensor]");
+        ntext = text.replace("\pic[orange]", "\node[red tensor]");
+        ntext = text.replace("{ipe disk}", "{}");
+        ntext = text.replace("{ipe fdisk}", "{}");
+        document.getElementById("textarea").value = text;
+      }
+    </script>
+  </head>
+  <body>
+    <textarea rows="10" cols="50" id="textarea"></textarea>
+    <button id="button" onclick="replace();">replace</button>
+  </body>
+</html>
