@@ -1,21 +1,16 @@
 @font-face {
-  font-family: "LMRoman12";
-  src: url('fonts/lmroman12-regular.otf');
+  font-family: "MLModern12";
+  src: url('fonts/mlmro12.ttf');
   font-style: normal;
 }
 
 @font-face {
-  font-family: "LMRoman12";
-  src: url('fonts/lmroman12-bold.otf');
-  font-weight: 500;
+  font-family: "MLModern12";
+  src: url('fonts/mlmbx12.ttf');
+  font-weight: bold;
   font-style: normal;
 }
 
-@font-face {
-  font-family: "LMRoman12";
-  src: url('fonts/lmroman12-italic.otf');
-  font-style: italic;
-}
 
 a:link    { text-decoration: none; color: #1D699B; }
 a:visited { text-decoration: none; color: #1D699B; }
@@ -36,8 +31,8 @@ html {
 }
 
 body {
-    font-family: "LMRoman12", serif;
-    font-weight: 300;
+    font-family: "MLModern12", serif;
+    font-weight: normal;
     max-width: 750px;
     width: 100%;
     margin: 0 auto;
@@ -115,7 +110,7 @@ header a {
 
 .pub-title, .lec-title, .conf-title  {
     color: black;
-    font-weight: 500;
+    font-weight: bold;
     margin-top: 25px;
     hyphens: auto;
     -moz-hyphens: auto;
