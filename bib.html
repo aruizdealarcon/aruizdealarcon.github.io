@@ -49,25 +49,23 @@
     </style>
     <script>
         function process() {
-            // Obtener el valor del input de la izquierda
-            const input = document.getElementById('inputBox').value;
-            
-            // Procesar el input (aquí puedes poner cualquier lógica de procesamiento)
-            const output = input.toUpperCase();  // Ejemplo: convertir el texto a mayúsculas
-            
-            // Establecer el valor del output en el textbox de la derecha
-            document.getElementById('outputBox').value = output;
+            let input = document.getElementById('inputBox').value;
+            const monthRegex = /month\s*=\s*{[^}]*},?/gi;
+            const urlDateRegex = /url-date\s*=\s*{[^}]*},?/gi;
+            const languageRegex = /language\s*=\s*{en},?/gi;
+            input = input.replace(monthRegex, '');
+            input = input.replace(urlDateRegex, '');
+            input = input.replace(languageRegex, '');
+            input = input.replace(/,\s*,/g, ',');
+            input = input.replace(/,\s*}/g, '}');
+            input = input.replace(/\s{2,}/g, ' ');
+            document.getElementById('outputBox').value = input.trim();
         }
 
         function copyToClipboard() {
-            // Obtener el elemento del textbox de output
             const outputBox = document.getElementById('outputBox');
-            
-            // Seleccionar el texto del outputBox
             outputBox.select();
-            outputBox.setSelectionRange(0, 99999);  // Para dispositivos móviles
-            
-            // Copiar el texto al portapapeles
+            outputBox.setSelectionRange(0, 99999);
             document.execCommand('copy');
         }
     </script>
