@@ -5,25 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Process BibTeX</title>
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
+        @font-face {
+          font-family: "MLModern12";
+          src: url('fonts/mlmr12.ttf');
+          font-style: normal;
         }
+
+        @font-face {
+          font-family: "MLModern12";
+          src: url('fonts/mlmb10.ttf');
+          font-weight: bold;
+          font-style: normal;
+        }
+
+        html, body {
+            margin: 0 auto;
+            font-family: "MLModern12", Arial, sans-serif;
+        }
+
         .container {
             text-align: center;
+            max-width: 1200px;
+            margin: 0 auto;
         }
         .text-boxes {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 20px;
+            /*! display: flex; */
+            /*! justify-content: space-between; */
+            /*! margin-bottom: 20px; */
         }
         textarea {
-            width: 45%;
-            height: 100px;
+            width: 47%;
+            height: 500px;
             resize: none;
         }
         .buttons {
@@ -57,22 +69,19 @@
             
             // Copiar el texto al portapapeles
             document.execCommand('copy');
-            
-            // Mostrar una alerta (opcional)
-            alert('Texto copiado al portapapeles: ' + outputBox.value);
         }
     </script>
 </head>
 <body>
     <div class="container">
-        <h1>Proyecto HTML con JavaScript</h1>
+        <h1>BibTeX process</h1>
         <div class="text-boxes">
-            <textarea id="inputBox" placeholder="Ingrese su texto aquí..."></textarea>
-            <textarea id="outputBox" readonly placeholder="El resultado aparecerá aquí..."></textarea>
+            <textarea id="inputBox" placeholder="Insert the BiBTeX entries here"></textarea>
+            <textarea id="outputBox" readonly placeholder="The result will appear here..."></textarea>
         </div>
         <div class="buttons">
-            <button onclick="process()">Procesar</button>
-            <button onclick="copyToClipboard()">Copiar al portapapeles</button>
+            <button onclick="process()">Process</button>
+            <button onclick="copyToClipboard()">Copy to the clipboard</button>
         </div>
     </div>
 </body>
