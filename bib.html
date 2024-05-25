@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process BibTeX</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .text-boxes {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 45%;
+            height: 100px;
+            resize: none;
+        }
+        .buttons {
+            margin-top: 10px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+    <script>
+        function process() {
+            // Obtener el valor del input de la izquierda
+            const input = document.getElementById('inputBox').value;
+            
+            // Procesar el input (aquí puedes poner cualquier lógica de procesamiento)
+            const output = input.toUpperCase();  // Ejemplo: convertir el texto a mayúsculas
+            
+            // Establecer el valor del output en el textbox de la derecha
+            document.getElementById('outputBox').value = output;
+        }
+
+        function copyToClipboard() {
+            // Obtener el elemento del textbox de output
+            const outputBox = document.getElementById('outputBox');
+            
+            // Seleccionar el texto del outputBox
+            outputBox.select();
+            outputBox.setSelectionRange(0, 99999);  // Para dispositivos móviles
+            
+            // Copiar el texto al portapapeles
+            document.execCommand('copy');
+            
+            // Mostrar una alerta (opcional)
+            alert('Texto copiado al portapapeles: ' + outputBox.value);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Proyecto HTML con JavaScript</h1>
+        <div class="text-boxes">
+            <textarea id="inputBox" placeholder="Ingrese su texto aquí..."></textarea>
+            <textarea id="outputBox" readonly placeholder="El resultado aparecerá aquí..."></textarea>
+        </div>
+        <div class="buttons">
+            <button onclick="process()">Procesar</button>
+            <button onclick="copyToClipboard()">Copiar al portapapeles</button>
+        </div>
+    </div>
+</body>
+</html>
