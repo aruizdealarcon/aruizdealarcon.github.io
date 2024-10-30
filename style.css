@@ -110,7 +110,6 @@ header a {
 
 .pub-title, .lec-title, .conf-title  {
     color: black;
-    font-weight: bold;
     margin-top: 25px;
     hyphens: auto;
     -moz-hyphens: auto;
