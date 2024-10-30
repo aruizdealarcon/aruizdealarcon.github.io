@@ -41,7 +41,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     line-height: 1.25em;
-    font-size: 1.15em;
+    font-size: 1.1em;
 }
 
 p {
@@ -75,8 +75,8 @@ li:last-child {
 }
 
 h1 {
-    font-size: 1.25em;
-    text-align: center;
+    font-size: 1.2em;
+    text-align: left;
     font-weight: normal;
 }
 
@@ -99,7 +99,7 @@ header {
 }
 
 header p {
-    text-align: center;
+    text-align: left;
     margin-top: 3pt;
     margin-bottom: 0pt;
 }
