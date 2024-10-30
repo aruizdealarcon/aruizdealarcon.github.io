@@ -115,6 +115,10 @@ header a {
     -moz-hyphens: auto;
 }
 
+.pub-title, .conf-title  {
+    font-weight: bold;
+}
+
 .pub-authors {
 }
 
