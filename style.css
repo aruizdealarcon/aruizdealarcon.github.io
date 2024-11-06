@@ -126,15 +126,19 @@ header a {
 }
 
 .pub-title, .conf-title  {
+  font-weight:500;
     /*! font-weight: bold; */
 }
 
 .pub-authors {
+  font-weight:300;
 }
 
 .pub-journal {
+  font-weight:300;
 
 }
 .pub-links {
+  font-weight:300;
     
 }
