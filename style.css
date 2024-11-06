@@ -17,6 +17,8 @@
   font-style: italic;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 a:link    { text-decoration: none; color: #1D699B; }
 a:visited { text-decoration: none; color: #1D699B; }
@@ -37,7 +39,7 @@ html {
 }
 
 body {
-    font-family: "MLModern12", serif;
+    font-family: "Inter", "MLModern12", serif;
     font-weight: normal;
     font-size: 1.05em;
     max-width: 750px;
