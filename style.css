@@ -31,7 +31,7 @@ html {
 }
 
 body {
-    font-family: "MLModern12", serif;
+    font-family: Georgia, "MLModern12", serif;
     font-weight: normal;
     max-width: 750px;
     width: 100%;
@@ -41,7 +41,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     line-height: 1.25em;
-    font-size: 1.1em;
+    font-size: 1.05em;
 }
 
 p {
@@ -75,13 +75,13 @@ li:last-child {
 }
 
 h1 {
-    font-size: 1.2em;
+    font-size: 1.15em;
     text-align: left;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 h2 {
-    font-size: 1.1em;
+    font-size: 1.05em;
     text-align: left;
     font-weight: normal;
     text-decoration: underline;
