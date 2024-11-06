@@ -11,6 +11,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "MLModern12";
+  src: url('fonts/mlmro12.ttf');
+  font-style: italic;
+}
+
 
 a:link    { text-decoration: none; color: #1D699B; }
 a:visited { text-decoration: none; color: #1D699B; }
