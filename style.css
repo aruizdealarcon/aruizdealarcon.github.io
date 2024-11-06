@@ -31,8 +31,9 @@ html {
 }
 
 body {
-    font-family: Georgia, "MLModern12", serif;
+    font-family: "MLModern12", serif;
     font-weight: normal;
+    font-size: 1.05em;
     max-width: 750px;
     width: 100%;
     margin: 0 auto;
@@ -40,8 +41,6 @@ body {
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
-    line-height: 1.25em;
-    font-size: 1.05em;
 }
 
 p {
@@ -81,10 +80,9 @@ h1 {
 }
 
 h2 {
-    font-size: 1.05em;
+    font-size: 1em;
     text-align: left;
-    font-weight: normal;
-    text-decoration: underline;
+    font-weight: bold;
     line-height: calc(1ex / 0.42);
     margin: calc(1ex / 0.42) 0;
 }
@@ -109,6 +107,7 @@ header a {
 }
 
 .pub-title, .lec-title, .conf-title  {
+    font-style: italic;
     color: black;
     margin-top: 25px;
     hyphens: auto;
@@ -116,7 +115,7 @@ header a {
 }
 
 .pub-title, .conf-title  {
-    font-weight: bold;
+    /*! font-weight: bold; */
 }
 
 .pub-authors {
