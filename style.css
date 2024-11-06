@@ -80,7 +80,7 @@ li:last-child {
 }
 
 h1 {
-    font-size: 1.1em;
+    font-size: 1.05em;
     text-align: left;
     font-weight: bold;
 }
@@ -113,7 +113,7 @@ header a {
 }
 
 .pub-title, .lec-title, .conf-title  {
-    font-style: italic;
+    font-weight: bold;
     color: black;
     margin-top: 25px;
     hyphens: auto;
