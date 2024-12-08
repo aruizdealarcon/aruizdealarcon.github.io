@@ -95,14 +95,14 @@ header a {
 }
 
 .pub-title, .lec-title, .conf-title  {
-    font-weight: bold;
+    font-weight: 500;
     color: black;
     hyphens: auto;
     -moz-hyphens: auto;
 }
 
 .pub-title, .conf-title  {
-  font-weight:300;
+  font-weight:500;
     /*! font-weight: bold; */
 }
 
