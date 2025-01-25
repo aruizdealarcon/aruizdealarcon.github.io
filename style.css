@@ -99,6 +99,7 @@ header a {
     color: black;
     hyphens: auto;
     -moz-hyphens: auto;
+    margin-bottom:0px;
 }
 
 .pub-title, .conf-title  {
@@ -108,13 +109,18 @@ header a {
 
 .pub-authors {
   font-weight:300;
+    margin-top:0px;
+    margin-bottom:0px;
 }
 
 .pub-journal {
   font-weight:300;
+    margin-top:0px;
+    margin-bottom:0px;
 
 }
 .pub-links {
   font-weight:300;
+    margin-top:0px;
     
 }
