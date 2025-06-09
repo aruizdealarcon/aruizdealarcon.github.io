@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 @font-face {
-    font-family: "Linux Libertine Regular";
-    src: url("fonts/LinLibertine_R.otf.otf") format("opentype");
+    font-family: "Linux Libertine R";
+    src: url("fonts/LinLibertine_R.otf") format("opentype");
 }
 
 
@@ -25,9 +25,9 @@ html {
 }
 
 body {
-    font-family: "Linux Libertine Regular", serif;
+    font-family: "Linux Libertine R", serif;
     font-weight: normal;
-    font-size: 1em;
+    font-size: 1.2em;
     max-width: 750px;
     width: 100%;
     margin: 0 auto;
@@ -43,7 +43,7 @@ p {
     margin-bottom: 10px;
     hyphens: auto;
     -moz-hyphens: auto;
-    line-height: calc(1ex / 0.32);
+    line-height: 1.5em;
 }
 
 ol {
