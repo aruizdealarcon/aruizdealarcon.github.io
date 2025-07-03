@@ -27,7 +27,7 @@ html {
 body {
     font-family: "IBM Plex Sans", serif;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1em;
     max-width: 780px;
     width: 100%;
     margin: 0 auto;
@@ -43,7 +43,7 @@ p {
     margin-bottom: 10px;
     hyphens: auto;
     -moz-hyphens: auto;
-    line-height: 1.5em;
+    line-height: 1.75em;
 }
 
 ol {
