@@ -25,9 +25,9 @@ html {
 }
 
 body {
-    font-family: "Times New Roman", "IBM Plex Sans", serif;
+    font-family: "IBM Plex Sans", serif;
     font-weight: normal;
-    font-size: 1.1em;
+    font-size: 1em;
     max-width: 780px;
     width: 100%;
     margin: 0 auto;
