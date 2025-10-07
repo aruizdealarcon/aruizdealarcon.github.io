@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
 a:link    { text-decoration: none; color: #1D699B; }
 a:visited { text-decoration: none; color: #1D699B; }
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    font-family: "IBM Plex Sans", serif;
+    font-family: "Source Serif 4", serif;
     font-weight: normal;
     font-size: 1em;
     max-width: 780px;
@@ -108,6 +108,12 @@ header a {
 }
 
 .pub-authors {
+  font-weight:300;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.info-comm {
   font-weight:300;
     margin-top:0px;
     margin-bottom:0px;
