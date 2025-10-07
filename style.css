@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 a:link    { text-decoration: none; color: #1D699B; }
 a:visited { text-decoration: none; color: #1D699B; }
 a:hover   { text-decoration: none; color: #1D699B; }
@@ -16,12 +15,13 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
-    font-family: "Source Serif 4", serif;
+    font-family: "Open Sans", serif;
     font-weight: normal;
-    font-size: 1em;
+    font-size: 0.95em;
     max-width: 780px;
     width: 100%;
     margin: 0 auto;
