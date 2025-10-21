@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 a:link    { text-decoration: none; color: #1D699B; }
 a:visited { text-decoration: none; color: #1D699B; }
 a:hover   { text-decoration: none; color: #1D699B; }
@@ -19,9 +20,8 @@ html {
 }
 
 body {
-    font-family: "Open Sans", serif;
+    font-family: "Inter", serif;
     font-weight: normal;
-    font-size: 0.95em;
     max-width: 780px;
     width: 100%;
     margin: 0 auto;
@@ -70,7 +70,7 @@ h1 {
 h2 {
     font-size: inherit;
     text-align: left;
-    font-weight: bold;
+    font-weight: 800;
     line-height: calc(1ex / 0.42);
     margin: calc(1ex / 0.42) 0;
 }
@@ -95,7 +95,7 @@ header a {
 }
 
 .pub-title, .lec-title, .conf-title  {
-    font-weight: 500;
+    font-weight: 600;
     color: black;
     hyphens: auto;
     -moz-hyphens: auto;
@@ -103,7 +103,7 @@ header a {
 }
 
 .pub-title, .conf-title  {
-  font-weight:500;
+  font-weight:600;
     /*! font-weight: bold; */
 }
 
