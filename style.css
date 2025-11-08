@@ -22,13 +22,11 @@ html {
 body {
     font-family: "Inter", serif;
     font-weight: normal;
-    max-width: 800px;
+    max-width: 760px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 70px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 p {
@@ -37,7 +35,7 @@ p {
     margin-bottom: 10px;
     hyphens: auto;
     -moz-hyphens: auto;
-    line-height: 1.75em;
+    line-height: 1.6em;
 }
 
 ol {
@@ -71,17 +69,11 @@ h2 {
     font-size: inherit;
     text-align: left;
     font-weight: 800;
-    line-height: calc(1ex / 0.42);
-    margin: calc(1ex / 0.42) 0;
 }
 
 header, section {
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-header {
-    /*background-color: yellow*/
 }
 
 header p {
@@ -103,30 +95,27 @@ header a {
 }
 
 .pub-title, .conf-title  {
-  font-weight:600;
-    /*! font-weight: bold; */
+    font-weight:600;
 }
 
 .pub-authors {
-  font-weight:400;
+    font-weight:400;
     margin-top:0px;
     margin-bottom:0px;
 }
 
 .info-comm {
-  font-weight:400;
+    font-weight:400;
     margin-top:0px;
     margin-bottom:0px;
 }
 
 .pub-journal {
-  font-weight:400;
+    font-weight:400;
     margin-top:0px;
     margin-bottom:0px;
-
 }
 .pub-links {
-  font-weight:400;
+    font-weight:400;
     margin-top:0px;
-    
 }
