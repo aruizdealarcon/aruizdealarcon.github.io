@@ -1,4 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');*/
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('fonts/SourceSans3-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('fonts/SourceSans3-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('fonts/SourceSans3-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('fonts/SourceSans3-SemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 
 a:link    { text-decoration: none; color: #1D699B; }
 a:visited { text-decoration: none; color: #1D699B; }
@@ -20,8 +45,9 @@ html {
 }
 
 body {
-    font-family: "Inter", serif;
+    font-family: "Source Sans 3", serif;
     font-weight: normal;
+    font-size: 1.1em;
     max-width: 760px;
     width: 100%;
     margin: 0 auto;
@@ -68,7 +94,7 @@ h1 {
 h2 {
     font-size: inherit;
     text-align: left;
-    font-weight: 800;
+    font-weight: bold;
 }
 
 header, section {
@@ -87,7 +113,7 @@ header a {
 }
 
 .pub-title, .lec-title, .conf-title  {
-    font-weight: 600;
+    font-weight: 500;
     color: black;
     hyphens: auto;
     -moz-hyphens: auto;
@@ -95,7 +121,7 @@ header a {
 }
 
 .pub-title, .conf-title  {
-    font-weight:600;
+    font-weight:500;
 }
 
 .pub-authors {
