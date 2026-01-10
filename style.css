@@ -54,6 +54,8 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 0px 20px;
+    background: url("groovepaper.png") repeat;
+    background-color: #fafafa;
 }
 
 p {
