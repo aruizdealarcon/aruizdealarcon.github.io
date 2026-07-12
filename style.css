@@ -76,11 +76,16 @@ h2 {
 }
 
 header {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 0px;
 }
 
 section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#section-publications, #section-conf, #section-teaching {
     padding-top: 10px;
     padding-bottom: 10px;
 }
