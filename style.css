@@ -72,7 +72,7 @@ h1 {
 h2 {
     font-size: inherit;
     text-align: left;
-    font-weight: 700;
+    font-weight: 650;
 }
 
 header {
@@ -101,15 +101,11 @@ header a {
 }
 
 .pub-title, .lec-title, .conf-title  {
-    font-weight: 600;
+    font-weight: 550;
     color: black;
     hyphens: auto;
     -moz-hyphens: auto;
     margin-bottom:0px;
-}
-
-.pub-title, .conf-title  {
-    font-weight:600;
 }
 
 .pub-authors {
