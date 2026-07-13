@@ -12,7 +12,7 @@ a:hover   { text-decoration: none; color: #1D699B; }
 
 html {
     box-sizing: border-box;
-    font-size: 0.9rem;
+    font-size: 0.92rem;
 }
 
 *, *:before, *:after {
@@ -111,7 +111,7 @@ header a {
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 0.85rem;
+    font-size: 0.89rem;
 }
 
 .pub-journal {
@@ -119,17 +119,17 @@ header a {
     text-transform: uppercase;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 0.83rem;
+    font-size: 0.88rem;
 }
 .pub-links {
     font-weight: 400;
     margin-top: 0px;
-    font-size: 0.85rem;
+    font-size: 0.89rem;
 }
 
 .info-comm {
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 0.85rem;
+    font-size: 0.89rem;
 }
