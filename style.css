@@ -104,31 +104,32 @@ header a {
     color: black;
     hyphens: auto;
     -moz-hyphens: auto;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
 
 .pub-authors {
-    font-weight:400;
-    margin-top:0px;
-    margin-bottom:0px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 0.85rem;
 }
 
 .pub-journal {
-    font-weight:400;
-    margin-top:0px;
-    margin-bottom:0px;
-    font-size: 0.85rem;
+    font-weight: 450;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.83rem;
 }
 .pub-links {
-    font-weight:400;
-    margin-top:0px;
+    font-weight: 400;
+    margin-top: 0px;
     font-size: 0.85rem;
 }
 
 .info-comm {
-    font-weight:400;
-    margin-top:0px;
-    margin-bottom:0px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 0.85rem;
 }
