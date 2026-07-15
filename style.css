@@ -111,7 +111,8 @@ header a {
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 0.89rem;
+    font-size: 0.88rem;
+    text-transform: uppercase;
 }
 
 .pub-journal {
