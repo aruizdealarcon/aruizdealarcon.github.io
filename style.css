@@ -143,9 +143,20 @@ footer {
     column-gap: 0.5em;
     margin-bottom: 8px;
     line-height: 1.6em;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
 }
 
-.cv-list .years {
+.teach-list {
+    list-style-type: none;
+}
+
+.teach-list li {
+    display: grid;
+    grid-template-columns: 6em 1fr;
+    column-gap: 0.5em;
+    margin-bottom: 8px;
+    line-height: 1.6em;
     white-space: nowrap;
     font-variant-numeric: tabular-nums;
 }
